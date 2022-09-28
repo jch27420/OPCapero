@@ -1,0 +1,93 @@
+---
+title: 'About OPC'
+author: "JCH"
+tags:
+- R Markdown
+categories: Projects
+output:
+  html_document: default
+  code_folding: hide
+bibliography: OPC_citations.bib
+csl: NIH_research.csl
+link-citations: yes
+---
+
+<style type="text/css">
+#myDiv {
+  border: 10px outset red;
+  border-style: groove;
+  background-color: ivory1;    
+  text-align: center;
+}
+#Lred { font-weight: bold; color: rgb(255, 50, 50); }
+#Lred2 { font-weight: bold; color: rgb(255, 100, 100); }
+#Red { font-weight: bold; color: rgb(255, 0, 0); }
+#Dred { font-weight: bold; color: rgb(175, 0, 0); }
+#Dred2 { font-weight: bold; color: rgb(100, 0, 0); }
+#Lor { font-weight: bold; color: rgb(255, 150, 0); }
+#Or { font-weight: bold; color: rgb(255, 115, 0); }
+#Dor { font-weight: bold; color: rgb(200, 90, 0); }
+#Ly { font-weight: bold; color: rgb(200, 255, 100); }
+#Yellow { font-weight: bold; color: rgb(255, 255, 0); }
+#Gold { font-weight: bold; color: rgb(230, 190, 0); }
+#Dy { font-weight: bold; color: rgb(170, 170, 0); }
+#Gr { font-weight: bold; color: rgb(0, 255, 0); }
+#Fgr { font-weight: bold; color: rgb(20, 80, 20); }
+#Dgr { font-weight: bold; color: rgb(0, 130, 0); }
+#Dgr2 { font-weight: bold; color: rgb(0, 70, 0); }
+#Lblue { font-weight: bold; color: rgb(100, 180, 255); }
+#Lblue2 { font-weight: bold; color: rgb(0, 132, 255); }
+#Blue { font-weight: bold; color: blue; }
+#Db { font-weight: bold; color: rgb(0, 0, 150); }
+#Db2 { font-weight: bold; color: rgb(0, 0, 100); }
+#V { font-weight: bold; color: rgb(180, 73, 255); }
+#Purple { font-weight: bold; color: rgb(150, 0, 255); }
+#Dpurp { font-weight: bold; color: rgb(95, 0, 161); }
+#Dpurp2 { font-weight: bold; color: rgb(59, 0, 100); }
+#Magenta { font-weight: bold; color: rgb(255, 0, 255); }
+#Coral { font-weight: bold; color: rgb(255, 127, 80); }
+#Cpink { font-weight: bold; color: rgb(248, 131, 121); }
+#Crim { font-weight: bold; color: rgb(220, 20, 60); }
+#Mul { font-weight: bold; color: rgb(119, 7, 55); }
+#Rasp { font-weight: bold; color: rgb(227, 11, 92); }
+#Lgray { font-weight: bold; color: rgb(190, 190, 190); }
+#Gray { font-weight: bold; color: rgb(155, 155, 155); }
+#Dgray { font-weight: bold; color: rgb(95, 95, 95); }
+#Brown { font-weight: bold; color: rgb(165, 42, 42); }
+#Rust { font-weight: bold; color: rgb(183, 65, 14); }
+#Dbr { font-weight: bold; color: rgb(100, 20, 20); }
+</style>
+
+```{r include=FALSE}
+### Libraries
+pacman::p_load(pacman, blogdown, jpeg, png, htmltools, tidyverse, kableExtra, mapview, DT, data.table, formattable, dplyr, purrr, bibtex, citr, curl, fs, magick, imager, Sim.DiffProc, gtools, naturalsort)
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+**OVERVIEW:** **O**jibway **P**rairie **C**omplex (**<span id="Blue">OPC</span>**) lies nestled between the city of Windsor and the town of LaSalle in Essex County. This region was once home to the town of Ojibway, which became annexed by the city of Windsor in 1966. Today **<span id="Blue">OPC</span>** is made up of 5 distinct parcels of land: **(i) Black Oak Heritage Park**; **(ii) Ojibway Park**; **(iii) Ojibway Prairie Provincial Nature Reserve**; **(iv) Tallgrass Prairie Heritage Park** and **(v) Spring Garden ANSI** (Area of Natural and Scientific Interest). **<span id="Blue">OPC</span>**, which is part of the Southern Great Lakes lowland forests ecoregion, contains a variety of natural habits ranging from permanent and seasonal wetlands to temperate broadleaf and mixed forest. This unique area is home to more than 160 species of provincially rare plants and animals, more than any other site in Ontario. Arguably, this is one of the main reasons why **<span id="Blue">OPC</span>** is one of Canada's most treasured natural areas. Unfortunately, **<span id="Blue">OPC</span>** (~350 ha) is one of only three major remnants of **E**astern **T**allgrass **P**rairies (**<span id="Fgr">ETP</span>**) and **O**ak **S**avannahs (**<span id="Dred">OS</span>**) remaining in the province. Collectively, **<span id="Dred">OS</span>** and **<span id="Fgr">ETP</span>** are often referred to as **<span id="Blue">Tallgrass Communities</span>**. The other two major remnants of **<span id="Blue">Tallgrass Communities</span>** are found at **W**alpole **I**sland **F**irst **N**ations (**<span id="Purple">WIFN</span>**, ~850 ha) and **P**inery **P**rovincial **P**ark (**<span id="Purple">PPP</span>**, ~1250 ha). Collectively, these three areas are believed to account for >90% of the province’s existing **<span id="Blue">Tallgrass Communities</span>**. Historically, Ontario was estimated to contain some 200,000 hectares (2,000 km^2^) of **<span id="Blue">Tallgrass Communities</span>**. Together the Ontario Ministry of Natural Resources (**OMNR**) and the city of Windsor (Department of Parks and Recreation) owns and manages these important natural areas.\
+City of Windsor's **<span id="Blue">OPC</span>** website:[@noauthor_ojibway_2019]
+
+<!------------------------------------------->
+<!----------------- OPC Map ----------------->
+<!------------------------------------------->
+<div id="myDiv">
+<table border="0" cellpadding="0" align=center>
+<tr><td>
+![](images/OPCmap1.jpg){width=700px}
+</td></tr>
+</table>
+</div>
+
+<hr style="border:2px solid gray">
+
+<!--------------------------------------------------------------------->
+&copy; Jeffrey C Howard. The material contained within this website may be copied, distributed and displayed without alterations for noncommercial purposes only provided that it is accompanied by acknowledgements to the author. All commercial and non-commercial rights are reserved to the author.  
+<!--------------------------------------------------------------------->
+
+<hr style="border:2px solid gray">
+
+# REFERENCES\
