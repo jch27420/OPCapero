@@ -10,20 +10,12 @@ tags:
 categories:
   - Projects
 layout: single
-bibliography: OPC_citations.bib
-csl: NIH_research.csl
-link-citations: yes
 links:
 - icon: github
   icon_pack: fab
   name: code
   url: https://github.com/jch27420/OPCapero
 ---
-
-<div style="text-align: center;">
-<img src="images/OPCmap.jpg" alt="" width="600px"/>
-</div>
-
 <style type="text/css">
 #Dred { font-weight: bold; color: rgb(175, 0, 0); }
 #Gold { font-weight: bold; color: rgb(230, 190, 0); }
@@ -46,10 +38,14 @@ links:
 #Dbr { font-weight: bold; color: rgb(100, 20, 20); }
 </style>
 
+<div style="text-align: center;">
+<img src="images/OPCmap.jpg" alt="" width="600px"/>
+</div>
+
 <!-- this is a subheadline -->
 &nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) was once home to the town of Ojibway, which was annexed by the city of Windsor in 1966. This ~350 hectare (ha) complex is made up of five parcels of land: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha)[@noauthor_ojibway_2019]. Collectively they are home to more than 160 species of provincially rare plants and animals, more than any other site in Ontario. Arguably it is one of Canada's most treasured natural areas.  
 &nbsp; &nbsp; Unfortunately, <span id="Dred">OPC</span> is one of only three major **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** remaining in the province, with the other two being found in and around **W**alpole **I**sland **F**irst **N**ations (<span id="Blue">WIFN</span>, ~850 ha) and **P**inery **P**rovincial **P**ark (<span id="Blue">PPP</span>, ~1250 ha). Together these three areas are thought to account for ~90% of the province’s existing <span id="Fgr">T</span>all<span id="Fgr">G</span>rass <span id="Fgr">C</span>ommunities (<span id="Fgr">TGC</span>). Historically, Southern Ontario is thought to have contained upwards of 200,000 ha (2,000 km&#178;) of Tallgrass Communities.  
-&nbsp; &nbsp; According to Ontario's ecological land classification systems, <span id="Dred">OPC</span> lies within the **[Southern Great Lakes lowland forests](https://www.ontario.ca/page/ecosystems-ontario-part-1-ecozones-and-ecoregions)** <span id="Gr2">ecoregion</span> of the much larger **Mixedwood Plains** <span id="Gr2">ecozone</span>. And like other parts of the province, the landscape of <span id="Dred">OPC</span> has been largely sculpted by glacial ice and water some 75,000-to-10,000 years ago (i.e. late [Wisconsin glacial period](https://opentextbc.ca/geology/chapter/16-1-glacial-periods-in-earths-history/)). The original topsoil was removed by the advancing glaciers and replaced with layers of unconsolidated material during their retreat (i.e. [surficial geology](https://www.mndm.gov.on.ca/en/mines-and-minerals/geoscience/surficial-geology)). The resulting glacial lakes and rivers formed during this period created large low-relief plains, including the well known **St. Clair Clay Plain**[@chapman_physiography_1984]. This relatively thick layer of sandy and clay-like material has greatly influenced soil development in and around <span id="Dred">OPC</span>, and consequently the current biodiversity of the region.  
+&nbsp; &nbsp; According to Ontario's ecological land classification systems, <span id="Dred">OPC</span> lies within the **[Southern Great Lakes lowland forests](https://www.ontario.ca/page/ecosystems-ontario-part-1-ecozones-and-ecoregions)** <span id="Gr2">ecoregion</span> of the much larger **Mixedwood Plains** <span id="Gr2">ecozone</span>. And like other parts of the province, the landscape of <span id="Dred">OPC</span> has been largely sculpted by glacial ice and water some 75,000-to-10,000 years ago (i.e. late [Wisconsin glacial period](https://opentextbc.ca/geology/chapter/16-1-glacial-periods-in-earths-history/)). The original topsoil was removed by the advancing glaciers and replaced with layers of unconsolidated material during their retreat (i.e. [surficial geology](https://www.mndm.gov.on.ca/en/mines-and-minerals/geoscience/surficial-geology)). The resulting glacial lakes and rivers formed during this period created large low-relief plains, including the well known **St. Clair Clay Plain**[@chapman_physiography_1984]. This relatively thick layer of sandy and clay-like material has greatly influenced soil development in and around <span id="Dred">OPC</span>, and consequently the biodiversity of this region.  
 
 <hr style="border:2px solid gray">
 
@@ -58,6 +54,3 @@ links:
 <!--------------------------------------------------------------------->
 
 <hr style="border:2px solid gray">
-
-## References:
-
