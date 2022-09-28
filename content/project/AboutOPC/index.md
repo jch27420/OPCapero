@@ -18,7 +18,7 @@ links:
 ---
 
 <div style="text-align: center;">
-
+<img src="images/OPCmap.jpg" alt="" width="600px"/>
 </div>
 
 <style type="text/css">
