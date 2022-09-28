@@ -1,10 +1,10 @@
 ---
-title: "Emily Cooper"
-subtitle: "Social media strategy @ Savoir"
-description: "Not all themes are created equal. With Blogophonic we set out to create a clean theme with the right features for a serious blog. We also wanted Blogophonic to be a pleasure to modify, so we built it with Tachyons, CSS Grid and packed it full of configurable options."
-date: 2019-02-18T12:27:33-06:00
+title: "OPC Project"
+subtitle: "Exploration of the Natural World"
+description: "**O**jibway **P**rairie **C**omplex (**OPC**) is one of the last remaining major **Tallgrass Communities** in Ontario. Its unique mix of habitats is home to one of the largest collections of rare and endangered species in the country. This site delves into the science of OPC's natural world --- biology, chemistry, geology and much more!"
+date: 2022-02-07T12:27:33-06:00
 images:
-  - img/revoir.jpg
+  - img/OPCcollage.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config
