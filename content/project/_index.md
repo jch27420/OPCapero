@@ -1,7 +1,7 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: OPC Project Portfolio
+description: "Delving into the Science of Ojibway Prairie Complex."
+author: "JCH"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: false
