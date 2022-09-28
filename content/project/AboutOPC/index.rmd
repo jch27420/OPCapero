@@ -1,6 +1,7 @@
 ---
 title: 'About OPC'
 author: "JCH"
+date: 2022-09-27
 tags:
 - R Markdown
 categories: Projects
@@ -10,6 +11,11 @@ output:
 bibliography: OPC_citations.bib
 csl: NIH_research.csl
 link-citations: yes
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/jch27420/OPCapero
 ---
 
 <style type="text/css">
@@ -60,7 +66,7 @@ link-citations: yes
 
 ```{r include=FALSE}
 ### Libraries
-pacman::p_load(pacman, blogdown, jpeg, png, htmltools, tidyverse, kableExtra, mapview, DT, data.table, formattable, dplyr, purrr, bibtex, citr, curl, fs, magick, imager, Sim.DiffProc, gtools, naturalsort)
+pacman::p_load(pacman, blogdown, jpeg, png, htmltools, tidyverse, kableExtra, mapview, DT, data.table, formattable, dplyr, purrr, bibtex, citr, curl, fs, magick, imager)
 
 ```
 
@@ -77,7 +83,7 @@ City of Windsor's **<span id="Blue">OPC</span>** website:[@noauthor_ojibway_2019
 <div id="myDiv">
 <table border="0" cellpadding="0" align=center>
 <tr><td>
-![](images/OPCmap1.jpg){width=700px}
+![](images/OPCmap.jpg){width=700px}
 </td></tr>
 </table>
 </div>
