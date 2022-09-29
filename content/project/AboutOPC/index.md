@@ -1,7 +1,5 @@
 ---
 title: "About OPC"
-subtitle: " "
-excerpt: " "
 date: 2022-09-27
 author: "JCH"
 draft: false
