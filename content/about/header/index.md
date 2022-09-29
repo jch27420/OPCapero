@@ -13,5 +13,11 @@ headline: Ojibway Prairie Complex
 </style>
 
 <!-- this is a subheadline -->
-&nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) lies nestled between the city of Windsor and the town of LaSalle in Southern Ontario, Canada. As the name suggests this ~350 hectare complex (**Black Oak Heritage Park**, **Ojibway Park**, **Ojibway Prairie Provincial Nature Reserve**, **Tallgrass Prairie Heritage Park** and **Spring Garden ANSI**) is part of the traditional territory of the Anishnaabeg people (i.e. **Three Fires Confederacy** of Ojibwe, Potawatomi, and Odawa). The area was also home to other indigenous groups, including the Haudenosaunee (Iroquois), Attawandaron (Neutral) and Huron (Wyandot). If you plan on visiting <span id="Dred">OPC</span> please consult the **[Ojibway Nature Centre](https://www.ojibway.ca/index.htm)** for more information about what you can expect to find there.
+&nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) lies nestled between the city of Windsor and the town of LaSalle in Southern Ontario, Canada. As the name suggests this ~350 hectare complex (**Black Oak Heritage Park**, **Ojibway Park**, **Ojibway Prairie Provincial Nature Reserve**, **Tallgrass Prairie Heritage Park** and **Spring Garden ANSI**) is part of the traditional territory of the Anishnaabeg people (i.e. **Three Fires Confederacy** of Ojibwe, Potawatomi, and Odawa). The area was also home to other indigenous groups, including the Haudenosaunee (Iroquois), Attawandaron (Neutral) and Huron (Wyandot).  
+&nbsp; &nbsp; As a science educator and keen naturalist I have have been inspired by my many visits to <span id="Dred">OPC</span>. The extraordinary nature of <span id="Dred">OPC</span> can not be overstated given the rarity of these <span id="Fgr">T</span>all<span id="Fgr">G</span>rass <span id="Fgr">C</span>ommunities (<span id="Fgr">TGC</span>) in North America.  
+&nbsp; &nbsp; If you plan on visiting <span id="Dred">OPC</span> please consult the **[Ojibway Nature Centre](https://www.ojibway.ca/index.htm)** for more visitor information.  
+&nbsp; &nbsp; 
+
+
+
 
