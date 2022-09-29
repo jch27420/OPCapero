@@ -15,6 +15,10 @@ links:
   url: https://github.com/jch27420/OPCapero
 ---
 
+<div style="text-align: center;">
+<img src="images/OPCmap.jpg" alt="" width="600px"/>
+</div>
+
 <style type="text/css">
 #Dred { font-weight: bold; color: rgb(175, 0, 0); }
 #Gold { font-weight: bold; color: rgb(230, 190, 0); }
@@ -36,10 +40,6 @@ links:
 #Rust { font-weight: bold; color: rgb(183, 65, 14); }
 #Dbr { font-weight: bold; color: rgb(100, 20, 20); }
 </style>
-
-<div style="text-align: center;">
-<img src="images/OPCmap.jpg" alt="" width="600px"/>
-</div>
 
 <!-- this is a subheadline -->
 &nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) was once home to the town of Ojibway, which was annexed by the city of Windsor in 1966. This ~350 hectare (ha) complex is made up of five parcels of land: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha)[@noauthor_ojibway_2019]. Collectively they are home to more than 160 species of provincially rare plants and animals, more than any other site in Ontario. Arguably it is one of Canada's most treasured natural areas.  
