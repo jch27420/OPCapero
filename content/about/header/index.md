@@ -17,7 +17,9 @@ headline: Ojibway Prairie Complex
 &nbsp; &nbsp; As a science educator and keen naturalist I have been greatly inspired by my many visits to <span id="Dred">OPC</span>. The extraordinary nature of this place can not be overstated, largely due to the fact that **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** (<span id="Fgr">TGC</span>) are among the most endangered ecosystems on the planet. Here in southern Ontario, nearly all of the original (pre-colonial settlement) <span id="Fgr">TGC</span> have been replaced by urban and agricultural developments. Today, <span id="Dred">OPC</span> is one of only six major areas of <span id="Fgr">TGC</span> found within the province. Altogether, only ~6% of the province's original <span id="Fgr">TGC</span> still remains today[^2] [^3] [^4].  
 &nbsp; &nbsp; What is so remarkable about visiting <span id="Dred">OPC</span> is the overwhelming sense of being transported back in time when Tallgrass Prairies and Oak Savannas were much more common place. Unfortunately you would be hard pressed to find anyone who knows that these special places exist today. Of course, the only way to truly understand how special these places are is to visit one. So, if you plan on visiting <span id="Dred">OPC</span> you should consult the **[Ojibway Nature Centre](https://www.ojibway.ca/index.htm)** website for more details.  
 
-REFERENCES:  
+---
+
+**REFERENCES:**  
 [^1]: Ojibway Nature Centre and Ojibway Park, Windsor, Ontario, Canada.
 http://www.ojibway.ca/index.htm
 
