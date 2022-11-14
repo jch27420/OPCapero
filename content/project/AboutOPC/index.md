@@ -40,22 +40,43 @@ layout: single
 
 <!-- this is a subheadline -->
 &nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) lies nestled between the city of Windsor and the town of LaSalle in Southern Ontario, Canada. This ~350 hectare (ha) complex was once home to the town of Ojibway, which was annexed by the city of Windsor in 1966. Moreover, as the name suggests, it is part of the traditional territory of the Anishnaabeg people (i.e. **Three Fires Confederacy** of Ojibwe, Potawatomi, and Odawa) **<sup>1,2</sup>**.  
-&nbsp; &nbsp; As shown in the map above <span id="Dred">OPC</span> is composed of five distinct areas: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha). Collectively they are home to more than 160 species of provincially rare plants and animals, more than any other site in Ontario **<sup>1</sup>**. Today, <span id="Dred">OPC</span> represents one of the last major remnants of **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** (<span id="Gr2">TGC</span>) left within the province **<sup>3,4,5</sup>**. It is estimated that southern Ontario was home to between 1,100 and 2,000 km&#178; of <span id="Gr2">TGC</span> **<sup>2,4,6,7</sup>**. Needless to say, what little remains of <span id="Gr2">TGC</span> within the province is certainly in need of our protection **<sup>8</sup>**.  
+&nbsp; &nbsp; As shown in the map above <span id="Dred">OPC</span> is composed of five distinct areas: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha). Collectively they are home to more than 160 species of provincially rare plants and animals, more than any other site in Ontario **<sup>1</sup>**. Today, <span id="Dred">OPC</span> represents one of the last major remnants of **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** (<span id="Gr2">TGC</span>) left within the province **<sup>3-5</sup>**. Needless to say, what little remains of <span id="Gr2">TGC</span> within the province is certainly in need of our protection **<sup>6-8</sup>**.  
 
-**1. HISTORY OF GRASSLANDS IN SOUTHERN ONTARIO**  
-&nbsp; &nbsp; Prior to European settlement **prairies** (French: *meadow*) and **savannas** (Spanish: *sabana*) covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south and central Texas. Looking eastward, these vast grasslands extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grass plain was the <u>triangular shape</u> of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span> **<sup>9</sup>**. This neck-like extension of the mid-western prairie covers most of Iowa and northern Missouri, large parts of neighbouring Illinois and portions of northwestern Indiana. However, just east of this peninsula can be found patches of **prairie** and **savanna** habitat, particularly in southern Michigan, as well as the shores of both Lake Erie and Ontario.  
-&nbsp; &nbsp; The shorelines of the province's Great Lakes, including Lake St. Clair, were once home to relatively large tracts of <span id="Gr2">TGC</span>. The western end of Lake Erie alone was estimated to have 80,000 ha of prairie stretching from Sandusky Bay Ohio to Detroit Michigan. On the Canadian side of Lakes Erie, Ontario and St. Clair, historical records documented quite extensive prairies and open woodlands along their shores. In addition, large pockets of <span id="Gr2">TGC</span> were also found further inland in close proximity to major waterways (i.e. Thames and Grand Rivers), wetlands (i.e. Point Pelee, Rondeau, Long Point, St. Clair delta) and inland lakes, particularly the southern shore of **Rice Lake** in Northumberland county. For example, the famous Flemish friar Louis Hennepin (1679) described the banks of the Detroit river as:  
->"...*the country between those two Lakes [Erie and Lake St. Clair] is very well situated, and the soil fertile. The banks of the streight [Detroit River] are vast meadows, and the prospect is terminated with some hills covered with vineyards*..." **<sup>10</sup>**.  
+**1. HISTORY OF PRAIRIES IN SOUTHERN ONTARIO**  
+&nbsp; &nbsp; Prior to European settlement **prairies** (French: *meadow*) covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south and central Texas. Looking eastward, these vast grasslands extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grassy plain was the <u>triangular shape</u> of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span> **<sup>9</sup>**. This neck-like extension of mid-western prairie once covered most of Iowa and northern Missouri, large parts of neighbouring Illinois (known as the Prairie State), as well as portions of Indiana and Ohio. Also, there were substantial tracts of **prairie** and **savanna** intermingled with mixed forests and wetlands just east of the peninsula. A good example of this would be the western end of the Lake Erie. Many eye witness accounts from the early 1800s tell of a large lake plain with extensive swamp forests, oak woodlands and wet prairies **<sup>10</sup>**. As the famed naturalist Harold Mayfield once stated:  
+
+>"...*Few people today realize the original extent of wet grasslands in this region. One continuous strip extended almost without a break from Sandusky Bay around the southwest corner of Lake Erie and up the western shore almost to Detroit. An early observer estimated the area of this tract at more than 200,000 acres* [>800 km&#178;]" **<sup>10</sup>**.  
+
+In southern Ontario many early explorers and surveyors also discovered large tracts of <span id="Gr2">TGC</span> bordering the Great Lakes (i.e. Erie, Ontario, Huron) as well as other inland waterways (i.e. Lakes St. Clair and Rice; Detroit, St. Clair, Thames and Grand rivers). For example, the famous Flemish friar Louis Hennepin (1679) described the banks of the Detroit river as:  
+>"...*the country between those two Lakes* [Erie and Lake St. Clair] *is very well situated, and the soil fertile. The banks of the streight* [Detroit River] *are vast meadows, and the prospect is terminated with some hills covered with vineyards*" **<sup>11</sup>**.  
 
 Antoine de Lamothe-Cadillac (1701), founder of Fort Pontchartrain du Detroit, also had a favourable view of the Detroit river:  
 
->"*Detroit is, probably, only a canal or a river of moderate breadth ...through which the sparkling and pellucid waters of Lakes Superior, Michigan and Huron (which are so many seas of sweet water) flow and glide away gently and with a moderate current into Lake Erie, into the Ontario or Frontenac, and go at last to mingle in the river St. Lawrence with those of the ocean. The banks are so many vast meadows where the freshness of these beautiful streams keep the grass always green. These same meadows are fringed with long and broad avenues of fruit trees which have never felt the careful hand of the watchful gardener*..." **<sup>11</sup>**.  
+>"...*Detroit is, probably, only a canal or a river of moderate breadth ...through which the sparkling and pellucid waters of Lakes Superior, Michigan and Huron (which are so many seas of sweet water) flow and glide away gently and with a moderate current into Lake Erie, into the Ontario or Frontenac, and go at last to mingle in the river St. Lawrence with those of the ocean. The banks are so many vast meadows where the freshness of these beautiful streams keep the grass always green*" **<sup>12</sup>**.  
 
-Even today, we can find reminders of the province's past grassland glory courtesy village names, such as Prairie Siding, an important Thames River crossing just west of Chatham.  
-&nbsp; &nbsp; Based on these and other historical accounts, the province was once home to some 800 km&#178; of <span id="Gr2">TGC</span> **<sup>2,5</sup>**. However, some biologists suggest that upwards of 2,000 km&#178; of southern Ontario was covered by these grassland ecosystems **<sup>3,5</sup>**. Regardless of the "*true*" historical extent of <span id="Gr2">TGC</span> within southern Ontario, our understanding of them in relation to the rest of the province's ecology likely runs contrary to what most of us have been taught in school. No doubt there are many biology teachers and textbooks alike that did not mention or highlight the importance of these <span id="Gr2">TGC</span> to our province's landscape. Unfortunately, not much of these grassland systems remains here or throughout North America. Most have been either plowed under, polluted and mismanaged, or lost to urban development. All toll, less than 2% of the roughly 80 to 90 million hectares of original North American prairie and savanna is all that remains today.  
+Even today, we can still find reminders of the region's past grassland glory courtesy the names of settlements, such as Prairie Siding (an important Thames River crossing just west of Chatham).  
+&nbsp; &nbsp; Altogether, it is estimated that between 800 and 2,000 km&#178; of <span id="Gr2">TGC</span> once inhabited the province **<sup>2-5</sup>**. Regardless of "*true*" extent of these original grassland communities our understanding and appreciation of them is poorly lacking. It seems that the rapid loss of these natural areas to urban and agricultural developments some two centuries ago appears to have erased our collective memory of them. All toll, less than 2% of North America's original tallgrass prairie is all that remains today **<sup>3,4</sup>**. Unfortunately, the situation is far worse for oak savannas. These grassy open-canopy areas once covered some ~12,000,000 ha of the north-central United States alone. Now, more than 99.9% of the original savannas in this area has been lost **<sup>13</sup>**.  
 
-**2. FORCES THAT SHAPE TEMPERATE TALLGRASS PRAIRIES**  
-&nbsp; &nbsp; Although oak savannas and tallgrass prairies are distinct ecosystems, they are often found in close proximity to one another. The reason for this is that oak savannas are <u>transitional communities</u>, or <span id="Dbr">ecotones</span>, that link these open grassy plains with heavily wooded areas. This dynamic progression in vegetation types is predominately shaped by climate.  
+**2. ECOLOGY & GEOLOGY OF TALLGRASS COMMUNITIES**  
+&nbsp; &nbsp; Factors that play a key role in shaping the distribution of <span id="Gr2">TGC</span> across North America are: **(i)** climate; **(ii)** grazing and **(iii)** fire. 
+
+
+For the first 4,000 years or so following the last glacial period, when the **Pliestocene** ended (c. 11,650 ya) and the current **Holocene** epoch  began, much of Mid-Northwest and southern Ontario, was largely forested.  
+
+When the last continental glacier stood near its maximum extent, some 12,000 years ago, spruce forest reached southward as far as Kansas, and the Great Plains farther south was covered by deciduous forest. The trees retreated northward as the ice front receded, and the Great Plains has been a treeless grassland for the last 8,000-10,000 years.
+
+
+It is believed that tallgrass prairie and savanna communities formed some 4000 to 8000 years ago during a warming period which allowed prairie vegetation to move in from the west and occupy areas of central and eastern United States and southern Ontario typically thought to be dominated by forest species. A period of cooling and a gradual increase in rainfall followed this warming stage allowing forest species and a variety of herbaceous and grass species fiom the deciduous forest region of the southeastern United States to re-invade the prairie (Faber-Langendoen, 1984)
+
+
+The mid-Holocene is recognized as a time of unusually warm or dry climate (or both) in Europe and North America (1, 2). In Minnesota, prairie vegetation such as grasses (Gramineae) and sagebrush (Artemisia) expanded eastward into forested regions of the state between about 8500 and 4000 years ago as climate became more arid (3, 4). This prairie period was drier than at present, but evidence is somewhat equivocal as to whether it was colder or warmer.
+
+
+**X.** Dean, W.E., Bradbury, J.P., Anderson, R.Y. and Barnosky, C.W., 1984. The variability of Holocene climate change: evidence from varved lake sediments. Science, 226(4679), pp.1191-1194.
+
+Although tallgrass prairies and oak savannas are distinct ecosystems, they are often found bordering one another. The reason for this is that savannas are <u>transitional communities</u>, or <span id="Dbr">ecotones</span>, that link open grassy meadows with heavily wooded areas. 
+
+This dynamic progression in vegetation types is predominately shaped by climate.  
 &nbsp; &nbsp; Here in North America the dry conditions associated with the great western prairies are a product of the Rocky mountains' <span id="Db2">rain shadow</span>. This mountain chain acts as a natural barrier to the prevailing westerly winds. As a result, humid air masses coming in from the Pacific ocean are forced to ascend the Rockies. As the air reaches these higher elevations it cools, and as a consequence its ability to hold water vapour is greatly reduced. In essence, the Rocky mountains "*milk*" the air of its moisture causing precipitation or rain. The "*milked*" maritime air mass now descends the mountains along their eastern (leeward) slopes, warming up in the process as it becomes compressed by the higher pressures at these lower elevations. This warm dry air mass dominates the region limiting the type of vegetation that can grow here (i.e. drought resistant short-grasses). However, as one moves further east across the "*Great Plains*" the rain shadows' influence diminishes and, as a result, soil conditions improve (i.e. depth, moisture, nitrogen levels). These more favourable growing conditions result in more lush vegetation (i.e. both woody and herbaceous plants). Again, climate is the key driving force, particularly the amount of precipitation and evaporation that the occurs here. While these climatic conditions still favour tough prairie type vegetation, the increased soil depth and higher moisture levels allow taller grasses to grow and more hardy species of trees, like oaks, to take root. Continuing further eastward, the short grasses begin to give way to taller grasses. Trees now appear, at first singularly and sparse in number, but eventually together in distinct assembles (i.e. savannas and woodlands). 
 
 
@@ -91,24 +112,37 @@ http://www.ojibway.ca/index.htm
 **7.** Catling, Paul M. 2008. The extent and floristic composition of the Rice Lake Plains based on remnants. Canadian Field Naturalist, 122(1): 1-20.  
 **8.** Kraus, D., Hebb, A. 2020. Southern Canada’s crisis ecoregions: identifying the most significant and threatened places for biodiversity conservation. Biodivers Conserv, 29:3573–3590. https://doi.org/10.1007/s10531-020-02038-x  
 **9.** Stuckey, Ronald L. Origin and Development of the Concept of the Prairie Peninsula. The Prairie Pennisula - in the "shadow" of Transeau: Proceedings of the Sixth North American Prairie Conference. The Ohio State University, Columbus, Ohio. 12-17 August 1978. Ohio Biol. Surv. Biol. Notes. No. 15. 278 p  
-**10.** Hennepin, Louis. A New Discovery of a Vast Country in America. Reprinted from the Second London Issue of 1698, with Facsimiles of Original Title-Pages, Maps, and Illustrations, and the Addition of Introduction, Notes, and Index by Reuben Gold Thwaites. (Chicago: A.C. McClurg & Co., 1903). Volume 1 [pg. 109].  
-**11** Lajeunesse, E.J. ed., 1960. The Windsor Border Region: Canada's Southernmost Frontier; a Coll. of Documents. 374 pp. [pg. 18, 47]  
- 
+**10.** Mayfield H.F. 1988. Changes in bird life at the western end of Lake Erie.
+Part I. American Birds 42(1):393-398.  
+**11.** Hennepin, Louis. A New Discovery of a Vast Country in America. Reprinted from the Second London Issue of 1698, with Facsimiles of Original Title-Pages, Maps, and Illustrations, and the Addition of Introduction, Notes, and Index by Reuben Gold Thwaites. (Chicago: A.C. McClurg & Co., 1903). Volume 1 [pg. 109].  
+**12** Lajeunesse, E.J. ed., 1960. The Windsor Border Region: Canada's Southernmost Frontier; a Coll. of Documents. 374 pp. [pg. 18, 47]  
+**13.** Nuzzo, Victoria A. 1986. Extent and Status of Midwest Oak Savanna: Pre-settlement and 1985. Natural Areas Journal 6(2):6-36.
 
 
 
 
+Dyke, A. S. (2005). Late Quaternary Vegetation History of Northern North
+America Based on Pollen, Macrofossil, and Faunal Remains. Géographie
+physique et Quaternaire, 59(2-3), 211–262. https://doi.org/10.7202/014755ar
+
+Gleason, H. A. (1922). The Vegetational History of the Middle West. Annals of the Association of American Geographers, 12, 39–85.
+
+Anderson, R.C., 1983, August. The eastern prairie-forest transition-an overview. In Proceedings of the Eighth North American Prairie Conference. Western Michigan University, Kalamazoo, MI (pp. 86-92).
+
+Chapman, K., White, M., Johnson, R. and Zong, Z.M. 1990. An approach to evaluate long-term survival of the tallgrass prairie ecosystem. The Nature Conservancy, Midwest Regional Office, Minneapolis, MN, 50.
+
+**14.** Anderson, Roger A., Fralish, James S. and Baskin, Jerry M. editors. 1999. Savannas, Barrens, and Rock Outcrop Plant Communities of North America. Cambridge University Press. [pg. ]
 
 Sears, Paul B. 1978. Peninsula or Archipelago?
 
-
-**11.** Crins, William J., Paul A. Gray, Peter W.C. Uhlig, and Monique C. Wester. 2009. The Ecosystems of Ontario, Part I: Ecozones and Ecoregions. Ontario Ministry of Natural Resources, Peterborough Ontario, Inventory, Monitoring and Assessment, SIB TER IMA TR- 01, 71 pp.  
-**12.** Wester, M.C., B.L. Henson, W.J. Crins, P.W.C. Uhlig and P.A. Gray. 2018. The Ecosystems of Ontario, Part 2: Ecodistricts. Ontario Ministry of Natural Resources and Forestry, Science and Research Branch, Peterborough, ON. Science and Research Technical Report TR-26. 504 pp.
-**13.**
+**15.** Crins, William J., Paul A. Gray, Peter W.C. Uhlig, and Monique C. Wester. 2009. The Ecosystems of Ontario, Part I: Ecozones and Ecoregions. Ontario Ministry of Natural Resources, Peterborough Ontario, Inventory, Monitoring and Assessment, SIB TER IMA TR- 01, 71 pp.  
+**16.** Wester, M.C., B.L. Henson, W.J. Crins, P.W.C. Uhlig and P.A. Gray. 2018. The Ecosystems of Ontario, Part 2: Ecodistricts. Ontario Ministry of Natural Resources and Forestry, Science and Research Branch, Peterborough, ON. Science and Research Technical Report TR-26. 504 pp.
+**17.**
 
 
 Catling, P. M.; Catling, V. R.; and McKay-Kuja, S. M. 1992. The Extent, Floristic Composition and Maintenance of the Rice Lake Plains, Ontario, Based on Historical Records. The Canadian Field Naturalist, 106(1):73-86.
 
+Catling, P.M., Catling, V.R. and McKay-Kuja, S.M., 1992. The extent, floristic composition and maintenance of the Rice Lake Plains, Ontario, based on historical records. Canadian field-naturalist. Ottawa ON, 106(1), pp.73-86.
 
 Transeau, E. N. 1935. The Prairie Peninsula. Ecology, 16(3), 423-37.
 
