@@ -39,10 +39,10 @@ layout: single
 </style>
 
 <!-- this is a subheadline -->
-&nbsp; &nbsp; <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) was once home to the town of Ojibway (annexed by the city of Windsor in 1966). As shown in the map above <span id="Dred">OPC</span> is composed of five distinct areas: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha). Collectively (~350 ha) these areas are home to some 160 species of provincially rare plants and animals, more than any other site in Ontario **<sup>1,2</sup>**. Today, <span id="Dred">OPC</span> represents one of the last major remnants of **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** (<span id="Gr2">TGC</span>) left within the province **<sup>3-5</sup>**. Needless to say, what little remains of the province's <span id="Gr2">TGC</span> is certainly in need of our protection **<sup>6-8</sup>**.
+&nbsp; &nbsp; As shown in the map above <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) is composed of five distinct areas: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha). Collectively these areas are home to at least 160 rare plant and animal species within the province, more than any other site in Ontario **<sup>1,2</sup>**. Today, <span id="Dred">OPC</span> represents one of the last major remnants of **[Tallgrass Communities](https://tallgrassontario.org/wp-site/)** (<span id="Gr2">TGC</span>) left within the province **<sup>3-5</sup>**. Needless to say, what little remains of the province's <span id="Gr2">TGC</span> is certainly in need of our protection **<sup>6-8</sup>**.
 
 **1. HISTORY OF PRAIRIES IN SOUTHERN ONTARIO**  
-&nbsp; &nbsp; Prior to European settlement **prairies** (French: *meadow*) covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south and central Texas. Looking eastward, these vast grasslands extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grassy plain was the <u>triangular shape</u> of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span> **<sup>9</sup>**. This neck-like extension of mid-western prairie once covered most of Iowa and northern Missouri, large parts of neighbouring Illinois (known as the Prairie State), as well as portions of Indiana and Ohio. Also, there were substantial tracts of **prairie** and **savanna** intermingled with mixed forests and wetlands just east of the peninsula. A good example of this would be the western end of the Lake Erie. Many eye witness accounts from the early 1800s tell of a large lake plain with extensive swamp forests, oak woodlands and wet prairies **<sup>10</sup>**. As the famed naturalist Harold Mayfield once stated:  
+&nbsp; &nbsp; Prior to European settlement **prairies** (French: *meadow*) covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south and central Texas. Looking eastward, these grasslands extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grassy plain was the <u>triangular shape</u> of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span> **<sup>9</sup>**. This neck-like extension of mid-western prairie once covered most of Iowa and northern Missouri, large parts of neighbouring Illinois (known as the Prairie State), as well as portions of Indiana and Ohio. In addition, along the fringes of this border were substantial patches of **prairie** and **oak savanna** amongst the mixed forests and wetlands. A good example of this would be the western end of the Lake Erie. Many eye witness accounts from the early 1800s tell of a large lake plain with extensive swamp forests, oak woodlands and wet prairies **<sup>10</sup>**. As the famed naturalist Harold Mayfield once stated:  
 
 >"...*Few people today realize the original extent of wet grasslands in this region. One continuous strip extended almost without a break from Sandusky Bay around the southwest corner of Lake Erie and up the western shore almost to Detroit. An early observer estimated the area of this tract at more than 200,000 acres* [>800 km&#178;]" **<sup>10</sup>**.  
 
@@ -53,25 +53,36 @@ Antoine de Lamothe-Cadillac (1701), founder of Fort Pontchartrain du Detroit, al
 
 >"...*Detroit is, probably, only a canal or a river of moderate breadth ...through which the sparkling and pellucid waters of Lakes Superior, Michigan and Huron (which are so many seas of sweet water) flow and glide away gently and with a moderate current into Lake Erie, into the Ontario or Frontenac, and go at last to mingle in the river St. Lawrence with those of the ocean. The banks are so many vast meadows where the freshness of these beautiful streams keep the grass always green*" **<sup>12</sup>**.  
 
-Even today, we can still find reminders of the region's past grassland glory courtesy the names of settlements, such as Prairie Siding (an important Thames River crossing just west of Chatham).  
-&nbsp; &nbsp; Altogether, it is estimated that between 800 and 2,000 km&#178; of <span id="Gr2">TGC</span> once inhabited the province **<sup>2-5</sup>**. Regardless of "*true*" extent of these original grassland communities our understanding and appreciation of them is poorly lacking. It seems that the rapid loss of these natural areas to urban and agricultural developments some two centuries ago appears to have erased our collective memory of them. All toll, less than 2% of North America's original tallgrass prairie is all that remains today **<sup>3,4</sup>**. Unfortunately, the situation is far worse for oak savannas. These grassy open-canopy areas once covered some ~12,000,000 ha of the north-central United States alone. Now, more than 99.9% of the original savannas in this area has been lost **<sup>13</sup>**.  
+Even today the names of some settlements, such as Prairie Siding (an important Thames River crossing just west of Chatham), reminder us of the region's past grassland glory.  
+&nbsp; &nbsp; Altogether, it is estimated that between 800 and 2,000 km&#178; of <span id="Gr2">TGC</span> once covered the province's landscape **<sup>2-5</sup>**. Regardless of "*true*" extent of these original grassland communities it seems that the rapid lost of these areas to urban and agricultural developments some two centuries ago simultaneously erased our collective memory of them. For you would be hard pressed to find anyone today who even knows that these rare ecosystems exist within the province. All toll, less than 2% of North America's original tallgrass prairie is all that remains today **<sup>3,4</sup>**. Unfortunately, the situation is far worse for oak savannas. These open-canopied areas, that once covered some ~12,000,000 ha of the north-central United States alone, have been largely wiped out (i.e. >99.9%) due to human developments **<sup>13</sup>**.  
 
 **2. ECOLOGY & GEOLOGY OF TALLGRASS COMMUNITIES**  
-&nbsp; &nbsp; Factors that play a key role in shaping the distribution of <span id="Gr2">TGC</span> across North America are: **(i)** climate; **(ii)** grazing and **(iii)** fire. 
+&nbsp; &nbsp; There are three major forces that have largely shaped the distribution of <span id="Gr2">TGC</span> across North America, namely <span id="Blue">Climate</span>, <span id="Dbr">Grazing</span> and <span id="Dred">Fire</span>.  
+
+**(i)** <span id="Blue">CLIMATE</span>: At the end of the [Pliestocene epoch](https://stratigraphy.org/chart) ~11,650 **y**ears **a**go (**ya**) the great Laurentide ice sheet had receded to the far north. And for the first 3,000 years or so of the new (current) [Holocene epoch](https://stratigraphy.org/chart), much of the landscape of southern Ontario and the mid-Northwestern states were largely covered by spruce forests. However, ~9,000 **ya** the climate started to become warmer. This unusually dry period lasted for about 4,000 years and is often referred to as the <span id="Blue">H</span>olocene <span id="Blue">C</span>limate <span id="Blue">O</span>ptimum (<span id="Blue">HCO</span>). The timing of these glacial and inter-glacial periods over the last 400,000 years or so have been greatly 
+
+as a result of cyclic changes in the earth's orbit (i.e. [Milankovitch cycles](https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/)). 
+
+is thought to have allowed prairie vegetation to move further eastward, displacing the forests that once occupied the central and north-eastern states, as well as southern Ontario **<sup>14, 15</sup>**. 
+
+A period of cooling and a gradual increase in rainfall followed this warming stage allowing forest species and a variety of herbaceous and grass species fiom the deciduous forest region of the southeastern United States to re-invade the prairie (Faber-Langendoen, 1984)
+
+In Minnesota, prairie vegetation such as grasses (Gramineae) and sagebrush (Artemisia) expanded eastward into forested regions of the state between about 8500 and 4000 years ago as climate became more arid (3, 4). 
+
+**14.** Dyke, A. S. Late Quaternary Vegetation History of Northern North America Based on Pollen, Macrofossil, and Faunal Remains. Géographie physique et Quaternaire, 59(2-3): 211–262 (2005). https://doi.org/10.7202/014755ar
+
+**14.** Dean, W.E., Bradbury, J.P., Anderson, R.Y. and Barnosky, C.W. The variability of Holocene climate change: evidence from varved lake sediments. Science, 226(4679):1191-1194 (1984).
+**15.** Anderson, R. C. Evolution and Origin of the Central Grassland of North America: Climate, Fire, and Mammalian Grazers. The Journal of the Torrey Botanical Society, 133(4), 626–647 (2006). http://www.jstor.org/stable/20063881
+**16.** Cerling T., Harris J., MacFadden B., Leakey M.G., Quade J., Eisenmann V. and Ehleringer J.R. Global vegetation change through the Miocene/Pliocene boundary. Nature 389: 153–158 (1997). https://doi.org/10.1038/38229
+
+**17.** Janis, Christine M. Tertiary Mammal Evolution in the Context of Changing Climates, Vegetation, and Tectonic Events. Annual Review of Ecology and Systematics 24: 467–500 (1993). http://www.jstor.org/stable/2097187.
+
+(King 1981, Winkler et al. 1986, Winkler 1995, 1997, Baker et al. 1996, Anderson 1998)
+
+**18.** Delcourt, Paul A. and Delcourt, Hazel R. Vegetation Maps for Eastern North America: 40,000 Years B.P. To the Present. Geobotany. New York: Plenum. 1981.
 
 
-For the first 4,000 years or so following the last glacial period, when the **Pliestocene** ended (c. 11,650 ya) and the current **Holocene** epoch  began, much of Mid-Northwest and southern Ontario, was largely forested.  
 
-When the last continental glacier stood near its maximum extent, some 12,000 years ago, spruce forest reached southward as far as Kansas, and the Great Plains farther south was covered by deciduous forest. The trees retreated northward as the ice front receded, and the Great Plains has been a treeless grassland for the last 8,000-10,000 years.
-
-
-It is believed that tallgrass prairie and savanna communities formed some 4000 to 8000 years ago during a warming period which allowed prairie vegetation to move in from the west and occupy areas of central and eastern United States and southern Ontario typically thought to be dominated by forest species. A period of cooling and a gradual increase in rainfall followed this warming stage allowing forest species and a variety of herbaceous and grass species fiom the deciduous forest region of the southeastern United States to re-invade the prairie (Faber-Langendoen, 1984)
-
-
-The mid-Holocene is recognized as a time of unusually warm or dry climate (or both) in Europe and North America (1, 2). In Minnesota, prairie vegetation such as grasses (Gramineae) and sagebrush (Artemisia) expanded eastward into forested regions of the state between about 8500 and 4000 years ago as climate became more arid (3, 4). This prairie period was drier than at present, but evidence is somewhat equivocal as to whether it was colder or warmer.
-
-
-**X.** Dean, W.E., Bradbury, J.P., Anderson, R.Y. and Barnosky, C.W., 1984. The variability of Holocene climate change: evidence from varved lake sediments. Science, 226(4679), pp.1191-1194.
 
 Although tallgrass prairies and oak savannas are distinct ecosystems, they are often found bordering one another. The reason for this is that savannas are <u>transitional communities</u>, or <span id="Dbr">ecotones</span>, that link open grassy meadows with heavily wooded areas. 
 
@@ -117,12 +128,17 @@ Part I. American Birds 42(1):393-398.
 **12** Lajeunesse, E.J. ed., 1960. The Windsor Border Region: Canada's Southernmost Frontier; a Coll. of Documents. 374 pp. [pg. 18, 47]  
 **13.** Nuzzo, Victoria A. 1986. Extent and Status of Midwest Oak Savanna: Pre-settlement and 1985. Natural Areas Journal 6(2):6-36.
 
+**14.** Dyke, A. S. Late Quaternary Vegetation History of Northern North America Based on Pollen, Macrofossil, and Faunal Remains. Géographie physique et Quaternaire, 59(2-3): 211–262 (2005). https://doi.org/10.7202/014755ar
+
+
+(Delcourt and Delcourt 1981, King 1981, Winkler et al. 1986, Winkler 1995, 1997, Baker et al. 1996, Anderson 1998)
+
+Delcourt, Paul A. and Delcourt, Hazel R. Vegetation Maps for Eastern North America: 40,000 Years B.P. To the Present. Geobotany. New York: Plenum. 1981.
 
 
 
-Dyke, A. S. (2005). Late Quaternary Vegetation History of Northern North
-America Based on Pollen, Macrofossil, and Faunal Remains. Géographie
-physique et Quaternaire, 59(2-3), 211–262. https://doi.org/10.7202/014755ar
+
+
 
 Gleason, H. A. (1922). The Vegetational History of the Middle West. Annals of the Association of American Geographers, 12, 39–85.
 

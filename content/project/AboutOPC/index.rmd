@@ -1,12 +1,12 @@
 ---
-title: 'About OPC'
+title: "About OPC"
 author: "JCH"
 date: 2022-09-27
 tags:
 - R Markdown
 categories: Projects
 output:
-  html_document: default
+  markdown_document: default
   code_folding: hide
 bibliography: OPC_citations.bib
 csl: NIH_research.csl
@@ -178,17 +178,6 @@ Transeau, E. N. 1935. The Prairie Peninsula. Ecology, 16(3), 423-37.
 Tallgrass Ontario. 2021. Tallgrass Communities Mapping Project. https://tallgrassontario.org/wp-site/grassland-projects/
 
 ROCK ONtario. 1994. Ontario Ministry of Northern Development and Mines, ROCK ON, Series 1, 89 pp.
-
-
-
-
-<hr style="border:2px solid gray">
-
-<!--------------------------------------------------------------------->
-&copy; Jeffrey C Howard. The material contained within this website may be copied, distributed and displayed without alterations for noncommercial purposes only provided that it is accompanied by acknowledgements to the author. All commercial and non-commercial rights are reserved to the author.  
-<!--------------------------------------------------------------------->
-
-<hr style="border:2px solid gray">
 
 <hr style="border:2px solid gray">
 
