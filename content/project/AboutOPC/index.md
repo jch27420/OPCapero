@@ -90,16 +90,11 @@ where <strong>R</strong> = <sup>18</sup><span id="Red">O</span>/<sup>16</sup><sp
 
 </div>
 
-The use of &delta;<sup>18</sup><span id="Red">O</span> as well as other types of **[paleoclimate proxies](https://www.usgs.gov/programs/climate-research-and-development-program/science/paleoclimate-proxies)** (e.g. pollen and spores) has been particularly useful in determining the types of plant communities (i.e. **biomes**) that populated North America since the end of the last ice age ~11,700 **ya** (Note: designated end of the **[Pleistocene epoch](https://stratigraphy.org/chart)**). Around this time (~11,000 **ya**) the **Laurentide Ice Sheet** was rapidly retreating northward leaving southern Ontario ice free.**<sup>31</sup>** Pollen studies suggest that the most prominent type of vegetation in these ice free areas was **boreal forest** (i.e. mostly Jack Pine, Spruce, Balsam fir and Larch).**<sup>31</sup>** In fact, these Ontario forests were part of a much larger band of conifers stretching from eastern Alberta and southern Saskatchewan down through the mid-west and north-eastern United States.**<sup>32</sup>** The available pollen data also suggests that there were more open areas within the province that supported tundra-like vegetation.**<sup>33</sup>** A few thousand years later North America entered into an unusual warming period that lasted for about 4,000 years. This so called <span id="Blue">H</span>olocene <span id="Blue">C</span>limate <span id="Blue">O</span>ptimum (9,000-5,000 **ya**) allowed the western prairie to expand eastward creating much of the today's <span id="Gr2">TGC</span>. 
+The use of &delta;<sup>18</sup><span id="Red">O</span>, as well as other types of **[paleoclimate proxies](https://www.usgs.gov/programs/climate-research-and-development-program/science/paleoclimate-proxies)** (e.g. pollen and spores), has been particularly useful in determining the types of plant communities (i.e. **biomes**) that once populated North America since end of the last ice age ~11,700 **ya** (Note: designated end of the **[Pleistocene epoch](https://stratigraphy.org/chart)**). Pollen records from the early **Holocene** show that the vegetation within the province underwent relatively rapid changes. Deglaciated areas (southern Ontario) that once supported open tundra-like (herb and shrubs) vegetation were giving way to early successional tree species, like **Jack-Pine** (*Pinus banksiana*), as well as some northern deciduous trees (e.g. **Paper Birch**, *Betula papyrifera* and **Trembling Aspen**, *Populus tremuloides*). Other notable tree species present at this time included **Spruce** (*Picea sp.*), **Larch** (*Larix sp.*) and **Balsam fir** (*Abies balsamea*). **Oaks** (*Quercus sp.*), **Ashes** (*Fraxinus sp.*) and **Elm** (*Ulmus*) were also present but in much lower numbers relative to conifers.**<sup>31,32</sup>** Altogether, the pollen record suggests that a relatively wide band of forest had developed (~11,000 **ya**) along the trailing edge of the retreating ice sheet, one that stretched from eastern Alberta and southern Saskatchewan down through the mid-west and north-eastern United States.**<sup>32</sup>** However, by the middle of the **Holocene** (8,000-to-5,000 **ya**) the climate in North America became unusual warm and dry during the summer months.**<sup>33,34</sup>** This so-called <span id="Blue">H</span>olocene <span id="Blue">C</span>limate <span id="Blue">O</span>ptimum (<span id="Blue">HCO</span>), is thought to be responsible for the eastward expansion of the western prairie and the development of <span id="Gr2">TGC</span> within southern Ontario.**<sup>33-35</sup>** Cyclic changes in the earth's orbit (i.e. **[Milankovitch cycles](https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/)**) is likely the main reason for these slightly warmer summer temperatures during the <span id="Blue">HCO</span>.**<sup>36-39</sup>** Specifically, changes to the axle tilt of the earth (i.e **obliquity**) has been shown to have a direct influence on the amount of **insolation** (i.e. **in**cident **sol**ar radi**ation**) hitting the earth.  
 
 
-This is when the northern hemisphere experienced slightly warmer temperatures, due to cyclic changes in earth's orbit, specifically its obliquity (axle tilt), which directly influences the amount of incident solar radiation (i.e. insolation) hitting the earth (for more details see: section 2.2.1).  Local variations in the exact timing of the HTM were likely influenced by the proximity of the receding but substantial volumes of ice 9,000 years ago.  For example, reconstruction of the post-glacial vegetation regime using pollen and fossil records of a former Oak savanna in southern Ontario show clear transitions in vegetation types over the past 12,000 years [J. M. Szeicz, 1991 #32].  This study showed that the site was once dominated by open Pine woodlands, initially Jack Pine (Pinus banksiana) between 10,000 and 9,000 ya followed by White Pine (Pinus strobus) between 10,000 and ~6,000 ya.  However, some time between 8,000 and 6,000 ya the open P. stobus forest gave way to Oak savanna, a situation that lasted until ~1850 A.D. when Europeans systematically cleared the land for farming [J. M. Szeicz, 1991 #32].
-
-
-
-as a result of cyclic changes in the earth's orbit (i.e. [Milankovitch cycles](https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/)). 
-
-is thought to have allowed prairie vegetation to move further eastward, displacing the forests that once occupied the central and north-eastern states, as well as southern Ontario **<sup>14, 15</sup>**. 
+Local variations in the exact timing of the HTM were likely influenced by the proximity of the receding but substantial volumes of ice 9,000 years ago.
+as a result of cyclic changes in the earth's orbit . 
 
 A period of cooling and a gradual increase in rainfall followed this warming stage allowing forest species and a variety of herbaceous and grass species fiom the deciduous forest region of the southeastern United States to re-invade the prairie (Faber-Langendoen, 1984)
 
@@ -162,23 +157,25 @@ http://www.ojibway.ca/index.htm
 **26.** Urey, H.C. (1947). The thermodynamic properties of isotopic substances. Journal of the Chemical Society. Apr:562-581.  
 **27.** Nier, A.O. (1947). A mass spectrometer for isotope and gas analysis. The Review of Scientific Instruments. 18(6):398-411. doi: 10.1063/1.1740961. PMID: 20250939.  
 **28.** McKinney C.R., McCrea J.M., Epstein S., Allen H.A. and Urey H.C. (1950). Improvements in mass spectrometers for the measurement of small differences in isotope abundance ratios. The Review of Scientific Instruments. 21(8):724-30. doi: 10.1063/1.1745698. PMID: 14781446.  
-**29.** Urey, H.C., Lowenstam, H.A., Epstein, S., McKinney C.R. (1951). Measurement of Paleotemperatures and temperatures of the Upper Cretaceous of England, Denmark and the southwestern Unites States. Geological Society of America Bulletin 62(4):399–416.  
-**30.** Epstein, S., Buchsbaum, R., Lowenstam, H. and Urey, H.C. (1951). Carbonate-water isotopic temperature scale. Geological Society of America Bulletin 62(4):417-426.  
-**31.** Dyke, A.S. and Prest, V.K. (1987): Paleogeography of northern North America 18,000-5,000 years ago; Geological Survey of Canada, Map 1703A, scale 1:12,500,000  
-**32.** Dyke, A. S. Late Quaternary Vegetation History of Northern North America Based on Pollen, Macrofossil, and Faunal Remains. Géographie physique et Quaternaire, 59(2-3): 211–262 (2005). https://doi.org/10.7202/014755ar  
-**33.** Fuller, J.L. (1997). Holocene forest dynamics in southern Ontario, Canada: fine-resolution pollen data. Canadian Journal of Botany 75(10):1714-1727.  
+**29.** Urey H.C., Lowenstam H.A., Epstein S. and McKinney C.R. (1951). Measurement of Paleotemperatures and temperatures of the Upper Cretaceous of England, Denmark and the southwestern Unites States. Geological Society of America Bulletin 62(4):399–416.  
+**30.** Epstein S., Buchsbaum R., Lowenstam H. and Urey H.C. (1951). Carbonate-water isotopic temperature scale. Geological Society of America Bulletin 62(4):417-426.  
+**31.** Dyke, A. S. Late Quaternary Vegetation History of Northern North America Based on Pollen, Macrofossil, and Faunal Remains. Géographie physique et Quaternaire, 59(2-3): 211–262 (2005). https://doi.org/10.7202/014755ar  
+**32.** Fuller, J.L. (1997). Holocene forest dynamics in southern Ontario, Canada: fine-resolution pollen data. Canadian Journal of Botany 75(10):1714-1727.  
+**33.** Dean, W.E., Bradbury, J.P., Anderson, R.Y. and Barnosky, C.W. The variability of Holocene climate change: evidence from varved lake sediments. Science, 226(4679):1191-1194 (1984).  
+**34.** Bartlein P.J., Harrison S.P., Brewer S., Connor S., Davis B.A.S., Gajewski K., Guiot J., Harrison-Prentice T.I., Henderson A., Peyron O., Prentice I.C., Scholze M., Seppa H., Shuman B., Sugita S., Thompson R.S., Viau A.E., Williams J. and Wu H. (2010). Pollen-based continental climate reconstructions at 6 and 21 ka: a global synthesis. Climate Dynamics DOI: 10.1007/s00382-010-0904-1  
+**35.** Szeicz J.M. and MacDonald G.M. (1991). Postglacial vegetation history of oak savanna in southern Ontario. Canadian Journal of Botany 69(7):1507-1519.  
+**36.** Milankovitch, M. (1941). Canon of insolation and the ice age problem (in Yugoslavian). Serb. Acad. Beorg. Special Publication, 132.  
+**37.** Emiliani, C. and Geiss, J. (1959). On glaciations and their causes. Geol Rundsch 46:576–601.  
+**38.** Hays, J.D., Imbrie, J. and Shackleton, N.J. (1976) Variations in the Earth's orbit: Pacemaker of the ice ages. Science 194:1121-1132.  
+**39.** Imbrie, J. and Imbrie, J.Z. (1980). Modeling the climatic response to orbital variations. Science 207(4434):943-953.
 
 **.** Delcourt, Paul A. and Delcourt, Hazel R. Vegetation Maps for Eastern North America: 40,000 Years B.P. To the Present. Geobotany. New York: Plenum. 1981.  
-**.** Williams, J.W., Shuman, B.N., Webb III, T., Bartlein, P.J. and Leduc, P.L. (2004). Late‐Quaternary vegetation dynamics in North America: Scaling from taxa to biomes. Ecological Monographs 74(2):309-334.  
+**.** Williams, J.W., Shuman, B.N., Webb III, T., Bartlein, P.J. and Leduc, P.L. (2004). Late‐Quaternary vegetation dynamics in North America: Scaling from taxa to biomes. Ecological Monographs 74(2):309-334.
+
 
 **.** Terasmae, J. (1973). Notes on late Wisconsin and early Holocene history of vegetation in Canada. Arctic and Alpine Research 5(3):201-222.  
 **.** Gleason, H. A. (1922). The Vegetational History of the Middle West. Annals of the Association of American Geographers, 12, 39–85.  
 **.** Anderson, R.C., 1983, August. The eastern prairie-forest transition-an overview. In Proceedings of the Eighth North American Prairie Conference. Western Michigan University, Kalamazoo, MI (pp. 86-92).
-**.** Szeicz, J.M. and MacDonald, G.M. (1991). Postglacial vegetation history of oak savanna in southern Ontario. Canadian Journal of Botany 69(7):1507-1519.
-
-**.** Dean, W.E., Bradbury, J.P., Anderson, R.Y. and Barnosky, C.W. The variability of Holocene climate change: evidence from varved lake sediments. Science, 226(4679):1191-1194 (1984).  
-
-**.** Imbrie, J. and Imbrie, J.Z. (1980). Modeling the climatic response to orbital variations. Science 207(4434):943-953.  
 **.** Petit, J.R., Jouzel, J., Raynaud, D., Barkov, N.I., Barnola, J.M., Basile, I., Bender, M., Chappellaz, J., Davis, M., Delaygue, G. and Delmotte, M. (1999). Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. Nature 399(6735):429-436.  
 **.** Lüthi, D., Le Floch, M., Bereiter, B., Blunier, T., Barnola, J.M., Siegenthaler, U., Raynaud, D., Jouzel, J., Fischer, H., Kawamura, K. and Stocker, T.F. (2008). High-resolution carbon dioxide concentration record 650,000–800,000 years before present. Nature 453(7193):379-382.  
 **.** Emiliani, C. and Geiss, J. (1959). On glaciations and their causes. Geol Rundsch 46:576–601. https://doi.org/10.1007/BF01803043  
@@ -190,11 +187,11 @@ http://www.ojibway.ca/index.htm
 **.** Bauska, T.K., Marcott, S.A. and Brook, E.J. (2021). Abrupt changes in the global carbon cycle during the last glacial period. Nature Geoscience 14(2):91-96.  
 **.** Levitt, N.P., Eiler, J.M., Romanek, C.S., Beard, B.L., Xu, H. and Johnson, C.M. (2018). Near equilibrium 13C-18O bonding during inorganic calcite precipitation under chemo-stat conditions. Geochemistry, Geophysics, Geosystems, 19, 901– 920. https://doi.org/10.1002/2017GC007089  
 **.** Lisiecki, L.E., and Raymo, M.E. (2005). A Pliocene-Pleistocene stack of 57 globally distributed benthic δ<sup>18</sup>O records. Paleoceanography 20:PA1003 doi:10.1029/2004PA001071.  
-**.** Milankovitch, M. (1941). Canon of insolation and the ice age problem (in Yugoslavian). Serb. Acad. Beorg. Special Publication, 132.  
-**.** Hays, J.D., Imbrie, J. and Shackleton, N.J. (1976) Variations in the Earth's orbit: Pacemaker of the ice ages. Science 194:1121-1132.  
 
 **.** Cerling T., Harris J., MacFadden B., Leakey M.G., Quade J., Eisenmann V. and Ehleringer J.R. Global vegetation change through the Miocene/Pliocene boundary. Nature 389: 153–158 (1997). https://doi.org/10.1038/38229  
 **.** Janis, Christine M. Tertiary Mammal Evolution in the Context of Changing Climates, Vegetation, and Tectonic Events. Annual Review of Ecology and Systematics 24: 467–500 (1993). http://www.jstor.org/stable/2097187.  
+
+
 
 **.** Chapman, K., White, M., Johnson, R. and Zong, Z.M. 1990. An approach to evaluate long-term survival of the tallgrass prairie ecosystem. The Nature Conservancy, Midwest Regional Office, Minneapolis, MN, 50.  
 **.** Crins, William J., Paul A. Gray, Peter W.C. Uhlig, and Monique C. Wester. 2009. The Ecosystems of Ontario, Part I: Ecozones and Ecoregions. Ontario Ministry of Natural Resources, Peterborough Ontario, Inventory, Monitoring and Assessment, SIB TER IMA TR- 01, 71 pp.  
