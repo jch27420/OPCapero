@@ -1,0 +1,210 @@
+---
+title: "PaleoFire_data"
+author: "JCH"
+date: "2022-12-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r echo=FALSE}
+#install.packages("paleofire",repo="http://cran.r-project.org")
+library(paleofire)
+
+### select charcoal series between 30° and 90° latitude
+### and -110° and -41° longitude, and include only those with 
+### at least one geochronological (14C or 210Pb dating, tephra 
+### layer, etc.) control point each 2500 year.
+
+IDa <- pfSiteSel(lat>30 & lat<90, long>-110 & long<(-41), date_int<=2500, num_version<400)
+length(IDa$id_site)
+sumIDa <- summary(IDa)
+
+IDb <- pfSiteSel(lat>30 & lat<60, long>-100 & long<(-41), date_int<=2500, num_version<400)
+length(IDb$id_site)
+sumIDb <- summary(IDb)
+
+### select sites with more tna 20 samples
+ID1 <- pfSiteSel(id_site %in% IDa$id_site & num_samp>=20)
+length(IDa$id_site)
+
+ID2 <- pfSiteSel(id_site %in% IDb$id_site & num_samp>=20)
+length(ID2$id_site)
+
+
+### transform data using function
+TR1 <- pfTransform(ID1, method=c("MinMax","Box-Cox","Z-Score"))
+
+TR2 <- pfTransform(ID2, method=c("MinMax","Box-Cox","Z-Score"))
+
+```
+
+
+```{r}
+sumID2 <- summary(ID2)
+```
+
+
+
+```{r echo=FALSE}
+
+#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-110) 
+plot(ID1, zoom="world")
+```
+
+
+
+```{r echo=FALSE}
+
+#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-110) 
+plot(ID2, zoom="world")
+```
+
+
+
+```{r echo=FALSE}
+### Method 1
+### Data-binning procedure used to calculate a composite curve.
+### Binning sequence must be supplied for 'pfComposite' function to calculate
+### 'mean' charcoal value per series within each binning interval
+### Mean is then calculated for all series
+### Below 500 yr bin width is used for span of 11,000 yrs
+
+### CI for 'pfComposite' function calculated by bootstrap re-sampling of
+### binned charcoal series and calculation of the mean for each bin n times,
+### using the argument 'nboot' (by default => nboot=1000).
+
+COMP1a <- pfComposite(TR1, binning=TRUE, bins=seq(from=0,to=11000, by=500))
+
+```
+
+
+
+```{r echo=FALSE}
+### Method 2 - Two-stage smoothing method:
+### (i) "pre-bin" individual charcoal series using non-overlapping bins
+### to ensure high sample resolution records do not create bias and
+### not be interpolated for records with lower resolution
+### (ii) smooth pre-binned series using a locally-weighted scatter plot
+### smoother "LOWESS" with pre-defined constant bandwidth (half-width)
+### given in years (hw argument)
+### Note: 20 yr non-overlapping bins, LOWESS smoother 500 yr window hw of
+### 1000-yr smoothing window.
+### 'tarAge' => defines center of each bin (binhw being the pre-binning
+### bin half width) and ages for LOWESS estim. takes place (i.e. -50 to 12,000)
+###
+### 'pfCompositeLF' function ==> CIs calculated by bootstrap re-sampling
+### the pre-binned series (as opposed to individual samples) and then applying
+### LOWESS curve fitting. Repeated n times using 'nboot'
+### CIs estimated based on the distrib. of bootstrap replicates.
+
+COMP1b <- pfCompositeLF(TR1, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=100)
+```
+
+
+
+```{r echo=FALSE}
+
+COMP2a <- pfComposite(TR2, binning=TRUE, bins=seq(from=0,to=11000, by=500))
+
+```
+
+
+```{r echo=FALSE}
+
+COMP2b <- pfCompositeLF(TR2, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=100)
+
+```
+
+
+
+```{r echo=FALSE}
+### Basic plot of data for both methods
+par(mfrow=c(1,1))
+plot(COMP1a,conf=c(0.025,0.975))
+
+```
+
+
+
+```{r echo=FALSE}
+### Basic plot of data for both methods
+par(mfrow=c(1,1))
+plot(COMP1b,conf=c(0.05,0.95))
+
+```
+
+
+
+```{r echo=FALSE}
+### Basic plot of data for both methods
+par(mfrow=c(1,1))
+plot(COMP2a,conf=c(0.05,0.95))
+
+```
+
+
+
+```{r echo=FALSE}
+### Basic plot of data for both methods
+par(mfrow=c(1,1))
+plot(COMP2b,conf=c(0.05,0.95))
+
+```
+
+
+
+```{r echo=FALSE}
+### because the values in charcoal series are auto-correlated, testing the
+### significance of their temporal variations is not straight-forward.
+### Circular function ==> "moving" or "circular" block bootstrap, which
+### consists of splitting each charcoal series into (n-b+1) overlapping blocks
+### of data (n = sample size, b = block size). Blocks are randomly selected
+### (with replacement) to reconstruct new individual charcoal series that are
+### then used to estimate the CIs around the charcoal series composite mean.
+### This procedure may dampen the long-term trends in data, particularly if
+### individual sites record opposing trends
+### If observed trend does not exceed the CIs then there the composite values
+### at that time are not greater than by chance if records are not at all
+### synchronized. However, a composite curve not exceeding the CIs does not 
+### exclude the occurrence of important trends in the composite series.
+### This procedure is used for testing significance of local minima or maxima
+### in the composite time series.
+
+### Circular block bootstrap method commonly used in Superposed Epoch Analysis
+### a compositing technique that aims to find the response of a variable to
+### one or multiple particular events (e.g. insect outbreaks, fire) using
+### dendrochronological series or paleoecological proxy series
+
+### Note: b=NULL argument indicates that the block size is automatically
+### calculated for each series using the formulation above.
+
+circboot1a <- pfCircular(COMP1a, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
+plot(circboot1a)
+```
+
+
+
+```{r echo=FALSE}
+circboot1b <- pfCircular(COMP1b, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
+plot(circboot1b)
+```
+
+
+
+```{r echo=FALSE}
+circboot2a <- pfCircular(COMP2a, b=NULL, nboot=1000, conf=c(0.005,0.025,0.975,0.995))
+plot(circboot2a)
+```
+
+
+
+```{r echo=FALSE}
+circboot2b <- pfCircular(COMP2b, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
+plot(circboot2b)
+```
+
+
