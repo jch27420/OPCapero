@@ -14,55 +14,36 @@ knitr::opts_chunk$set(echo = TRUE)
 #install.packages("paleofire",repo="http://cran.r-project.org")
 library(paleofire)
 
-### select charcoal series between 30° and 90° latitude
-### and -110° and -41° longitude, and include only those with 
+### select charcoal series between 30° and 60° latitude
+### and -110° and -40° longitude, and include only those with 
 ### at least one geochronological (14C or 210Pb dating, tephra 
 ### layer, etc.) control point each 2500 year.
 
-IDa <- pfSiteSel(lat>30 & lat<90, long>-110 & long<(-41), date_int<=2500, num_version<400)
-length(IDa$id_site)
-sumIDa <- summary(IDa)
-
-IDb <- pfSiteSel(lat>30 & lat<60, long>-100 & long<(-41), date_int<=2500, num_version<400)
-length(IDb$id_site)
-sumIDb <- summary(IDb)
+ID <- pfSiteSel(lat>30 & lat<60, long>-100 & long<(-40), date_int<=2500, num_version<400)
+length(ID$id_site)
+sumIDa <- summary(ID)
 
 ### select sites with more tna 20 samples
-ID1 <- pfSiteSel(id_site %in% IDa$id_site & num_samp>=20)
-length(IDa$id_site)
-
-ID2 <- pfSiteSel(id_site %in% IDb$id_site & num_samp>=20)
-length(ID2$id_site)
-
+ID1 <- pfSiteSel(id_site %in% ID$id_site & num_samp>=20)
+length(ID$id_site)
 
 ### transform data using function
 TR1 <- pfTransform(ID1, method=c("MinMax","Box-Cox","Z-Score"))
-
-TR2 <- pfTransform(ID2, method=c("MinMax","Box-Cox","Z-Score"))
 
 ```
 
 
 ```{r}
-sumID2 <- summary(ID2)
+sumIDb <- summary(ID1)
 ```
 
 
 
 ```{r echo=FALSE}
 
-#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-110) 
+#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-100) 
 plot(ID1, zoom="world")
 ```
-
-
-
-```{r echo=FALSE}
-
-#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-110) 
-plot(ID2, zoom="world")
-```
-
 
 
 ```{r echo=FALSE}
@@ -80,6 +61,24 @@ plot(ID2, zoom="world")
 COMP1a <- pfComposite(TR1, binning=TRUE, bins=seq(from=0,to=11000, by=500))
 
 ```
+
+
+```{r}
+comparison=pfKruskal(COMP1a)
+
+```
+
+
+```{r}
+plot(comparison)
+```
+
+```{r}
+library(ggplot2)
+
+```
+
+
 
 
 
@@ -101,24 +100,8 @@ COMP1a <- pfComposite(TR1, binning=TRUE, bins=seq(from=0,to=11000, by=500))
 ### LOWESS curve fitting. Repeated n times using 'nboot'
 ### CIs estimated based on the distrib. of bootstrap replicates.
 
-COMP1b <- pfCompositeLF(TR1, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=100)
+COMP1b <- pfCompositeLF(TR1, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=1000)
 ```
-
-
-
-```{r echo=FALSE}
-
-COMP2a <- pfComposite(TR2, binning=TRUE, bins=seq(from=0,to=11000, by=500))
-
-```
-
-
-```{r echo=FALSE}
-
-COMP2b <- pfCompositeLF(TR2, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=100)
-
-```
-
 
 
 ```{r echo=FALSE}
@@ -129,29 +112,10 @@ plot(COMP1a,conf=c(0.025,0.975))
 ```
 
 
-
 ```{r echo=FALSE}
 ### Basic plot of data for both methods
 par(mfrow=c(1,1))
 plot(COMP1b,conf=c(0.05,0.95))
-
-```
-
-
-
-```{r echo=FALSE}
-### Basic plot of data for both methods
-par(mfrow=c(1,1))
-plot(COMP2a,conf=c(0.05,0.95))
-
-```
-
-
-
-```{r echo=FALSE}
-### Basic plot of data for both methods
-par(mfrow=c(1,1))
-plot(COMP2b,conf=c(0.05,0.95))
 
 ```
 
@@ -182,29 +146,9 @@ plot(COMP2b,conf=c(0.05,0.95))
 ### Note: b=NULL argument indicates that the block size is automatically
 ### calculated for each series using the formulation above.
 
-circboot1a <- pfCircular(COMP1a, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
+circboot1a <- pfCircular(COMP1a, b=NULL, nboot=1000, conf=c(0.005,0.025,0.975,0.995))
 plot(circboot1a)
 ```
 
-
-
-```{r echo=FALSE}
-circboot1b <- pfCircular(COMP1b, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
-plot(circboot1b)
-```
-
-
-
-```{r echo=FALSE}
-circboot2a <- pfCircular(COMP2a, b=NULL, nboot=1000, conf=c(0.005,0.025,0.975,0.995))
-plot(circboot2a)
-```
-
-
-
-```{r echo=FALSE}
-circboot2b <- pfCircular(COMP2b, b=NULL, nboot=100, conf=c(0.005,0.025,0.975,0.995))
-plot(circboot2b)
-```
 
 
