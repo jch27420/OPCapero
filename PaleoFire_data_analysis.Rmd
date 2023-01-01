@@ -13,19 +13,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r echo=FALSE}
 #install.packages("paleofire",repo="http://cran.r-project.org")
 library(paleofire)
-
-### select charcoal series between 30° and 60° latitude
-### and -110° and -40° longitude, and include only those with 
-### at least one geochronological (14C or 210Pb dating, tephra 
-### layer, etc.) control point each 2500 year.
-
+### select charcoal series btw: 30°-60° lat, -110° to -40° long.
+### have at least 1 geochronological (14C or 210Pb dating, etc)
+### control point each 2500 year.
 ID <- pfSiteSel(lat>30 & lat<60, long>-100 & long<(-40), date_int<=2500, num_version<400)
 length(ID$id_site)
-sumIDa <- summary(ID)
+sumID <- summary(ID)
 
 ### select sites with more tna 20 samples
 ID1 <- pfSiteSel(id_site %in% ID$id_site & num_samp>=20)
 length(ID$id_site)
+sumID20 <- summary(ID1)
 
 ### transform data using function
 TR1 <- pfTransform(ID1, method=c("MinMax","Box-Cox","Z-Score"))
@@ -34,16 +32,143 @@ TR1 <- pfTransform(ID1, method=c("MinMax","Box-Cox","Z-Score"))
 
 
 ```{r}
-sumIDb <- summary(ID1)
+### Extract data from sites to look at frequencies across time series
+fd <- pfExtract(ID1)
+sumfd <- summary(fd)
+sumfd
+
+### see first six rows of data
+head(fd)
+```
+
+
+```{r}
+### create new data.frame 'df' with select columns from 'fd' data.frame
+df <- fd[,c(1,3,4)]
+sum.df <- summary(df)
+head(df)
+tail(df)
+head(sum.df)
+
+```
+
+
+```{r}
+range(df$EST_AGE)
+```
+```{r}
+edges <- c(-100-0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000)
+edges1 <- c(0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000)
+bin <- cut(df$EST_AGE, edges)
+bin1 <- cut(df$EST_AGE, edges1)
+sum.bin <- summary(bin)
+sum.bin1 <- summary(bin1)
+sum.bin
+sum.bin1
+sum(sum.bin)
+sum(sum.bin1)
+
+
+```
+
+
+```{r}
+sum.bin <- c(1859, 1404, 1008, 919, 775, 864, 879, 823, 428, 249, 188, 117)
+pie(sum.bin, col = c("lightblue", "red3","white", "tan", "blue", "yellow", "gray75",  "cyan3", "green4", "orange4", "pink", "red1"), labels = " ")
+pie(sum.bin, col = rainbow(12), labels = " ")
+pie(sum.bin, labels = " ")
+
+```
+
+```{r}
+## Another case showing pie() is rather fun than science:
+## (original by FinalBackwardsGlance on http://imgur.com/gallery/wWrpU4X)
+pie(c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5),
+    init.angle = 315, col = c("deepskyblue", "yellow", "yellow3"), border = FALSE)
 ```
 
 
 
-```{r echo=FALSE}
 
-#### ID=pfSiteSel(lat>30, lat<90, long<(-41), long>-100) 
-plot(ID1, zoom="world")
+
+
+
+
+
+
+
+
+
+
+```{r}
+# Plot the first site raw charcoal data
+plot(fd[fd[,1]==ID1$id_site[1],3], fd[fd[,1]==ID1$id_site[1],4], type="l", main=ID1$site_name[1], xlab="Age",ylab="raw Char")
+
+plot(x=fd$EST_AGE, y=log(fd$QUANTITY), xlim=c(0,11000))
+
+library(tidyverse)
+library(ggplot2)
+
+
+
+
 ```
+
+
+
+
+
+```{r}
+library(tidyverse)
+
+df <- data.frame(fd1[,"ID_SITE"], fd1[,"EST_AGE"], fd1[,"QUANTITY"])
+sumdf <- summary(df)
+dim(df)
+
+df %>% rename(ID = ID_SITE, Eage = EST_AGE, amount = QUANTITY)
+sumdf1 <- summary(df)
+
+```
+
+
+
+
+
+```{r}
+### Temperate Grassland ===> rf99 = 11
+### Mixed Grass Prairie ===> rf99 = 10
+### Savanna ===> rf99 = 9
+### Mixed Forest ===> rf99 = 8
+### Boreal Deciduous Forest/Woodland ===> rf99 = 7
+### Boreal Evergreen Forest/Woodland ===> rf99 = 6
+### Temperate Deciduous Forest/Woodland ===> rf99 = 5
+
+### North American Savana, rf99==9 (Ramankutty and Foley 1999)
+NA9 <- pfSiteSel(rf99==9, continent=="North America")
+plot(NA9, zoom="world")
+length(NA9$id_site)
+sumNA9 <- summary(NA9)
+
+### North American Temperate Grasslands (rf99==11)
+NA11 <- pfSiteSel(rf99==11, continent=="North America")
+plot(NA11, zoom="world")
+length(NA11$id_site)
+sumNA11 <- summary(NA11)
+
+### Diagnostic function: prints 1 page per site of charcoal freq.
+pfDiagnostic(ID1, method=c("MinMax","Box-Cox","Z-Score"))
+```
+
+
+```{r}
+### generate map of vegetation types (rf99 classification scheme) with
+### dots added to represent sample site locations
+
+obj <- potveg(ID, classif="rf99")
+plot(obj)
+
+```
+
 
 
 ```{r echo=FALSE}
@@ -73,13 +198,6 @@ comparison=pfKruskal(COMP1a)
 plot(comparison)
 ```
 
-```{r}
-library(ggplot2)
-
-```
-
-
-
 
 
 ```{r echo=FALSE}
@@ -107,7 +225,7 @@ COMP1b <- pfCompositeLF(TR1, tarAge=seq(-50,12000,20), binhw=10, hw=500, nboot=1
 ```{r echo=FALSE}
 ### Basic plot of data for both methods
 par(mfrow=c(1,1))
-plot(COMP1a,conf=c(0.025,0.975))
+plot(COMP1a,conf=c(0.025,0.050,0.950,0.975))
 
 ```
 
@@ -115,40 +233,40 @@ plot(COMP1a,conf=c(0.025,0.975))
 ```{r echo=FALSE}
 ### Basic plot of data for both methods
 par(mfrow=c(1,1))
-plot(COMP1b,conf=c(0.05,0.95))
+plot(COMP1b,conf=c(0.025,0.05,0.95,0.975))
 
 ```
 
 
 
 ```{r echo=FALSE}
-### because the values in charcoal series are auto-correlated, testing the
-### significance of their temporal variations is not straight-forward.
-### Circular function ==> "moving" or "circular" block bootstrap, which
-### consists of splitting each charcoal series into (n-b+1) overlapping blocks
+### Circular function ==> "moving" or "circular" block bootstrap analsysis
+### Consists of splitting each charcoal series into (n-b+1) overlapping blocks
 ### of data (n = sample size, b = block size). Blocks are randomly selected
 ### (with replacement) to reconstruct new individual charcoal series that are
 ### then used to estimate the CIs around the charcoal series composite mean.
-### This procedure may dampen the long-term trends in data, particularly if
-### individual sites record opposing trends
 ### If observed trend does not exceed the CIs then there the composite values
 ### at that time are not greater than by chance if records are not at all
 ### synchronized. However, a composite curve not exceeding the CIs does not 
 ### exclude the occurrence of important trends in the composite series.
 ### This procedure is used for testing significance of local minima or maxima
 ### in the composite time series.
-
-### Circular block bootstrap method commonly used in Superposed Epoch Analysis
-### a compositing technique that aims to find the response of a variable to
-### one or multiple particular events (e.g. insect outbreaks, fire) using
-### dendrochronological series or paleoecological proxy series
-
+### Method is commonly used in Superposed Epoch Analysis a compositing technique
+### that aims to find the response of a variable to one or multiple particular
+### events (e.g. insect outbreaks, fire) using paleoclimatic proxy series
 ### Note: b=NULL argument indicates that the block size is automatically
 ### calculated for each series using the formulation above.
 
-circboot1a <- pfCircular(COMP1a, b=NULL, nboot=1000, conf=c(0.005,0.025,0.975,0.995))
+circboot1a <- pfCircular(COMP1a, b=NULL, nboot=1000, conf=c(0.005,0.025,0.050, 0.950, 0.975,0.995))
 plot(circboot1a)
 ```
+
+
+
+
+
+
+
 
 
 
