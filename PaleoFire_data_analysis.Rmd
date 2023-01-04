@@ -43,15 +43,30 @@ TR1 <- pfTransform(ID1, method=c("MinMax","Box-Cox","Z-Score"))
 ### CI for 'pfComposite' function calculated by bootstrap re-sampling of
 ### binned charcoal series and calculation of the mean for each bin n times,
 ### using the argument 'nboot' (by default => nboot=1000).
-COMP1 <- pfComposite(TR1, binning=TRUE, bins=seq(from=0,to=11000, by=500))
+COMP1 <- pfComposite(TR1, binning=TRUE, bins=seq(from=0,to=12000, by=500))
 write.csv(COMP1$Result, file="TR1comp1a.csv")
 plot(COMP1, conf=c(0.025,0.050,0.950,0.975))
 
 ### Kruskal-Wallis ANOVA on binned data issued from a "pfComposite" object
-### Test difference in biomass burning activity between different time periods.
-comparison1=pfKruskal(COMP1)
+### Test difference in biomass burning activity btw different t-periods.
+comparison1=pfKruskal(COMP1, p.adj="none", alpha=0.05)
 plot(comparison1, conf=c(0.025,0.050,0.950,0.975))
 
+### Moving Block Bootstrap (MBB) analysis:
+### splitting charcoal series into (n-b+1) overlapping blocks of data
+### (n = sample size, b = block size). Blocks are randomly selected
+### (with replacement) to reconstruct new individual charcoal series
+### Then estimate CIs around the new charcoal series composite mean.
+### Procedure used to test significance of local minima or max. within t-series
+### Note: b=NULL argument indicates that the block size is automatically
+### calculated for each series using the formulation above.
+circboot1 <- pfCircular(COMP1, b=NULL, nboot=1000, conf=c(0.005,0.025,0.050, 0.950, 0.975,0.995))
+plot(circboot1)
+
+```
+
+
+```{r}
 ### Method 2 - Two-stage smoothing method:
 ### (i) "pre-bin" individual charcoal series using non-overlapping bins
 ### to ensure high sample resolution records do not create bias and
@@ -79,8 +94,6 @@ plot(COMP2, conf=c(0.025,0.050,0.950,0.975))
 ### Procedure used to test significance of local minima or max. within t-series
 ### Note: b=NULL argument indicates that the block size is automatically
 ### calculated for each series using the formulation above.
-circboot1 <- pfCircular(COMP1, b=NULL, nboot=1000, conf=c(0.005,0.025,0.050, 0.950, 0.975,0.995))
-plot(circboot1)
 
 circboot2 <- pfCircular(COMP2, b=NULL, nboot=1000, conf=c(0.005,0.025,0.050, 0.950, 0.975,0.995))
 plot(circboot2)
