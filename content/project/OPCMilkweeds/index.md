@@ -13,15 +13,10 @@ layout: single
 ---
 
 <style type="text/css">
-#myDiv44 {
-  border: 4px outset red;
-  width: 50%;
-  padding: 4px;
-  margin: auto;
-  border-style: groove;
-  background-color: ivory1;    
-  text-align: center;
-}
+
+/* =============================== */
+/*  CSS for Milkweed Photo/Figures */
+/* =============================== */
 
 figure {
   border: 2px solid;
@@ -37,9 +32,45 @@ figcaption {
   text-align: left;
 }
 
+/* ================================= */
+/*  TABLE CSS for Ontario Milkweeds  */
+/* ================================= */
+
+#OntMkwd {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid;
+}
+
+#OntMkwd td, #OntMkwd th {
+  border: 2px solid;
+  padding: 2px;
+  text-align: center;
+  text: bold;
+}
+
+#OntMkwd tr:nth-child(even){background-color: rgb(255, 255, 255);}
+
+#OntMkwd th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+/* =============================== */
+/*          CSS for Links          */
+/* =============================== */
+
 a.one:link {color: rgb(0, 0, 200);}
 a.one:visited {color: rgb(192, 20, 172);}
 a.one:hover {color: rgb(255, 20, 100);}
+
+/* ============================== */
+/*     CSS for stylizing text     */
+/* ============================== */
 
 #Red { font-weight: bold; color: rgb(255, 10, 20); }
 #Dred { font-weight: bold; color: rgb(175, 0, 0); }
@@ -64,15 +95,21 @@ a.one:hover {color: rgb(255, 20, 100);}
 #Brown { font-weight: bold; color: rgb(165, 42, 42); }
 #Rust { font-weight: bold; color: rgb(183, 65, 14); }
 #Dbr { font-weight: bold; color: rgb(100, 20, 20); }
+
 </style>
 
+<div align=center>
+
+<img src="images/OPCMkwd_fhex_header_pic.jpg" alt="" height="400px"/>
+
+</div>
 
 <details>
   <summary><b>TABLE OF CONTENTS</b></summary>
   
   1. <a href="#Mkw">The Allure of Milkweeds</a>
   2. <a href="#Mkw_Pop">OPC Milkweed Population</a>
-     * <a href="#Mkw_Ont">Table 1. Milkweeds of Ontario</a>
+     * <a href="#MkwdsOnt">Table 1. Milkweeds of Ontario</a>
   3. <a href="#Mkw_Hab">Milkweed Habitat</a>
   4. <a href="#Mkw_Morph">Milkweed Morphology</a>
      * <a href="#Fig_MkwFlower">Fig.1 Milkweed Flower Structure</a>
@@ -90,37 +127,118 @@ a.one:hover {color: rgb(255, 20, 100);}
 
 &nbsp; &nbsp; We have long been taught to despise weeds. They compete with crops for precious nutrients, often reducing their yields in the process. Moreover, they are hard to manage or eradicate. So it is perhaps no surprise that Milk*weed*, the common name given to plants belonging to the genus *Asclepias*, are demonized by most people. The so called *weediness* of these plants is due, in large part, to the ability of some Milkweed species to colonize road sides and other disturbed areas. However, this characterization is misleading due to the fact that many species of *Asclepias* are important sources of food, fibre and medicine.  
 &nbsp; &nbsp; **First Nations** people have long known that different parts of the **Milkweed** plant can be used for many purposes. For example, the tough inner stem fibres can be simply rubbed together between the hands (i.e. *twining* the fibres) to make thick cords. Although most **Milkweeds** are suitable for making cordage, **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129944/Asclepias_incarnata">Swamp Milkweed</a>**  (*Asclepias incarnata*) is apparently preferred due to its very tough fibers.  
-&nbsp; &nbsp; **Milkweeds** are also edible. The young leaves, shoots and stems of **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.131135/Asclepias_syriaca">Common Milkweed</a>** (*Asclepias syriaca*), as well as its flower buds, roots and young pods are all considered quite delicious and nutritious greens. **First Nations** people also knew of the healing properties of **Milkweeds**. For example, many parts of the plant, including its **latex**, were used to treat among other things: **(i)** body aches (e.g. back, chest, stomach); **(ii)** venereal diseases and fungal infections (e.g. *ringworm*); and **(iii)** *dropsy* -- a build up of body fluid (aka *edema*) commonly associated with congestive heart failure.**<sup>1,2</sup>** Today, we now know that <span id="Blue">C</span>ardiac <span id="Blue">G</span>lycosides (<span id="Blue">CG</span>) found within the **latex** of these and other plants are responsible for its toxic and medicinal affects on cardiac muscle.**<sup>3,4</sup>** Although it is perhaps not surprising that humans long ago realized the utility of this toxin (i.e. poison-tipped arrows, dropsy medicine), what is surprising is that insects beat us to it! Recent studies have shown that Monarch butterflies can discriminate between Milkweed species that produce high and low levels of <span id="Blue">CG</span> apparently as a way to help their offspring deal with potentially deadly parasites - what scientists have termed *trans-generational* medication.**<sup>5</sup>**  
-&nbsp; &nbsp;**Milkweeds** also provide many other valuable *ecosystem goods* and *services*.**<sup>6</sup>** For example, the hollow filament-like hairs attached to the seeds, commonly referred to as *coma*, "*floss*" or simply "*silk*", are not only hypoallergenic but as warm as wool and as buoyant as cork. This latter property of **Milkweeds** was put to good use by the Allies during the Second World War to make life jackets, since the usual material *kapok* (aka: "*Java cotton*", from the Kapok tree *Ceiba pentandra*) was in short supply. Moreover, the fine, silky quality of the *coma* (aka: *American silk*) inspired early French settlers (17<sup>th</sup> century) to make beautiful cloth.  
-&nbsp; &nbsp; Today, the warm and hypo-allergenic properties of **Milkweed** *coma* is being used to make linen and garments (e.g. **<a class="one" href="https://www.ogallalacomfort.com/">Ogallala Comfort</a>**). In addition, because these hollow fibres are highly oil-absorbent they can also be used to deal with oil spills. Ecologically, **Milkweeds** are hosts to many insect species such as the emblematic **Monarch Butterfly** and produce relatively large amounts of nectar that many pollinating insects and hummingbirds use as food.**<sup>7</sup>** Lastly, quite a few passerines like the **<a class="one" href="https://www.allaboutbirds.org/guide/Baltimore_Oriole">Baltimore Oriole</a>** (*Icterus galbula*), **<a class="one" href="https://www.allaboutbirds.org/guide/American_Goldfinch/">American Goldfinch</a>** (*Spinus tristis*) and **<a class="one" href="https://www.allaboutbirds.org/guide/Yellow_Warbler">Yellow Warbler</a>** use Milkweed floss and/or fibre to help build their nests.**<sup>8</sup>** So, given the wealth of things **Milkweeds** provide -- *why would we not cultivate them*?
+&nbsp; &nbsp; **Milkweeds** are also edible. The young leaves, shoots and stems of **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.131135/Asclepias_syriaca">Common Milkweed</a>** (*Asclepias syriaca*), as well as its flower buds, roots and young pods are all considered quite delicious and nutritious greens. **First Nations** people also knew of the healing properties of **Milkweeds**. For example, many parts of the plant, including its **latex**, were used to treat among other things: **(i)** body aches (e.g. back, chest, stomach); **(ii)** venereal diseases and fungal infections (e.g. *ringworm*); and **(iii)** *dropsy* -- a build up of body fluid (aka *edema*) commonly associated with congestive heart failure.**<sup>1,2</sup>** Today, we now know that <span id="Blue">C</span>ardiac <span id="Blue">G</span>lycosides (<span id="Blue">CG</span>) found within the **latex** of these and other plants are responsible for its toxic and medicinal affects on cardiac muscle.**<sup>3,4</sup>** Although it is perhaps not surprising that humans long ago realized the utility of this toxin (i.e. poison-tipped arrows, medicine), what is surprising is that insects beat us to it! Recent studies have shown that Monarch butterflies can discriminate between Milkweed species that produce high and low levels of <span id="Blue">CG</span> apparently as a way to help their offspring deal with deadly (toxin-sensitive) parasites -- what scientists have termed *trans-generational* medication.**<sup>5</sup>**  
+&nbsp; &nbsp;**Milkweeds** also provide many other valuable *ecosystem goods* and *services*.**<sup>6</sup>** For example, the hollow filament-like hairs attached to the seeds, commonly referred to as *coma*, "*floss*" or simply "*silk*", are not only hypoallergenic but apparently warmer than wool and as buoyant as cork. This latter property of **Milkweeds** was put to good use by the Allies during the Second World War to make life jackets, since the usual material *kapok* (aka: "*Java cotton*", from the Kapok tree *Ceiba pentandra*) was in short supply. Today, the warm and hypo-allergenic properties of **Milkweed** *coma* have motivated a few garment manufacturers to use them in the production of linen and clothing.**<sup>7</sup>** Ecologically, **Milkweeds** are hosts to many insect species such as the emblematic **Monarch butterfly** and produce relatively large volumes of sugary nectar that many pollinating insects and hummingbirds rely on for food.**<sup>8</sup>** Lastly, quite a few passerines like the **<a class="one" href="https://www.allaboutbirds.org/guide/Baltimore_Oriole">Baltimore Oriole</a>** (*Icterus galbula*), **<a class="one" href="https://www.allaboutbirds.org/guide/American_Goldfinch/">American Goldfinch</a>** (*Spinus tristis*) and **<a class="one" href="https://www.allaboutbirds.org/guide/Yellow_Warbler">Yellow Warbler</a>** use Milkweed floss and/or fibre to help build their nests.**<sup>9</sup>** So, given the wealth of *goods* and *services* **Milkweeds** do provide - why not cultivate them?
 
 <div><center><h3>MILKWEED FAMILY</h3></centre></div>  
- 
+
 <!----------------------------------------------------------------------->
 <!----------------- SECTION 1 - OPC MILKWEED POPULATION ----------------->
 <!----------------------------------------------------------------------->
-<a id="Mkw_Pop"></a>**1. <u>MILKWEED POPULATION</u>:** *Asclepias spp.* are a large family (>70 species) of North American forbs (see **<a class="one" href="https://plants.sc.egov.usda.gov/core/profile?symbol=ASCLE">USDA</a>**), with 12 species being native to Ontario. Of these dozen *Asclepias* species only seven have historically been found at <span id="Blue">OPC</span>. However, one species (i.e. White Milkweed) is now believed to be *extirpated* (i.e. extinct from region, [Read more about S and G Species Rankings](#sgranks)).  
+<a id="Mkw_Pop"></a>**1. <u>MILKWEED POPULATION</u>:** *Asclepias spp.* are a large family (>70 species) of North American forbs (see **<a class="one" href="https://plants.sc.egov.usda.gov/core/profile?symbol=ASCLE">USDA</a>**), with 12 species being native to Ontario. Of these dozen *Asclepias* species only seven have historically been found at <span id="Blue">OPC</span>. However, one species (i.e. White Milkweed) is now believed to be *extirpated* (i.e. extinct from region &rArr; **<a class="one" href="#GSrank">see Species/Ecosystem Rankings</a>**).  
 
 <!---------------------------------------------------------------->
 <!------------------------- TABLE 1: Milkweed sp.----------------->
 <!---------------------------------------------------------------->
-<a id="Mkw_Ont"></a>
 
+<a id="MkwdsOnt"></a>
+<table id="OntMkwd">
+  <tr>
+    <th>Genus Species</th>
+    <th>Common Name</th>
+    <th>S,G RANKS</th>
+    <th>MEDICAL</th>
+  </tr>
+  <tr>
+    <td><i>Asclepias exaltata</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/125386-Asclepias-exaltata">Poke milkweed</a></td>
+    <td>S4,G5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias hirtella</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/127690-Asclepias-hirtella">Tall green milkweed</a></td>
+    <td><span id="Red">S1</span>,G5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><i>Asclepias incarnata</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/125381-Asclepias-incarnata">Swamp Milkweed</a></td>
+    <td>S5,G5T5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias purpurascens</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/125380-Asclepias-purpurascens">Purple Milkweed</a></td>
+    <td><span id="Red">S1</span>,G4G5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><i>Asclepias quadrifolia</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/129548-Asclepias-quadrifolia">Fourleaf Milkweed</a></td>
+    <td><span id="Red">S1</span>,G5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias sullivantii</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/158761-Asclepias-sullivantii">Prairie Milkweed</a></td>
+    <td><span id="Dred">S2</span>,G5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><i>Asclepias syriaca</i></td>
+    <td><a class="one" href="https://www.inaturalist.org/taxa/47911-Asclepias-syriaca">Common Milkweed</a></td>
+    <td>S5,G5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias tuberosa</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/47912-Asclepias-tuberosa">Butterfly Milkweed</a></td>
+    <td>S4,G5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias verticillata</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/125379-Asclepias-verticillata">Whorled Milkweed</a></td>
+    <td>S4,G5</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td><i>Asclepias variegata</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/127691-Asclepias-variegata">White Milkweed</a></td>
+    <td><span id="Red">SX</span>,G5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><i>Asclepias viridiflora</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/158763-Asclepias-viridiflora">Green Milkweed</a></td>
+    <td><span id="Dred">S2</span>,G5</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><i>Asclepias ovalifolia</i></td>
+    <td><a class="one" href="https://inaturalist.ca/taxa/47905-Asclepias-ovalifolia">Oval Leaf Milkweed</a></td>
+    <td><span id="Dred">S2</span>,<span id="Blue">G3</span>G5</td>
+    <td></td>
+  </tr>
+</table>
 
 <!---------------------------------------------------------------->
 <!------------------- SECTION 2: MILKWEED HABITAT----------------->
 <!---------------------------------------------------------------->
-<a id="Mkw_Hab"></a>**2.<u>HABITAT</u>:** **Milkweeds** that are native to <span id="Blue">OPC</span> are perennial, herbaceous plants that inhabit a variety of wet and dry areas, ranging from roadside ditches and swamps to shorelines and forests. Some species, notably *A. syriaca*, readily colonize disturbed areas such as roadsides and abandoned fields. Regardless, one should always consult reliable databases for the preferred habitat of each species (**<a class="one" href="https://plants.sc.egov.usda.gov/core/profile?symbol=ASCLE)">USDA</a>**, or **<a class="one" href="https://www.itis.gov/">ITIS</a>**).  
+
+<a id="Mkw_Hab"></a>**2. <u>HABITAT</u>:** **Milkweeds** that are native to <span id="Blue">OPC</span> are perennial, herbaceous plants that inhabit a variety of wet and dry areas, ranging from roadside ditches and swamps to shorelines and forests. Some species, notably *A. syriaca*, readily colonize disturbed areas such as roadsides and abandoned fields. Regardless, one should always consult reliable databases for the preferred habitat of each species (**<a class="one" href="https://plants.sc.egov.usda.gov/core/profile?symbol=ASCLE)">USDA</a>**, or **<a class="one" href="https://www.itis.gov/">ITIS</a>**).  
 
 <!------------------------------------------------------------->
 <!---------- MILKWEED FAMILY SECTION 3: PLANT MORPH ----------->
 <!------------------------------------------------------------->
-<a id="Mkw_Morph"></a>**3. <u>MILKWEED MORPHOLOGY \& FEATURES</u>:** **Milkweeds**, as the name suggests, are known for their sticky, often *creamy white* (but can be yellow, orange or clear) **latex** that is exuded in response to tissue damage. Closer examination of **latex** shows that it is unlike plant **sap** or **resin** in a number of ways. Firstly, **sap** is an aqueous solution that is transported by the plant's well known vasculature elements (xylem and phloem), while **resins** are a fat-soluble mixture of largely volatile <span id="Dred">Terpenoids</span> and <span id="Dred">Phenolics</span> found within *inter*-cellular spaces, or ducts.**<sup>9</sup>** By contrast, **latex** is produced and stored (under pressure) in *living cells* known as **lactifers**.**<sup>10,11</sup>** These elongated and branching cells form *unique* tubular networks throughout most of the plant (i.e. independent of the vascular bundles). The **latex** stored in these **lactifers** is an <u>emulsion</u> or *colloidal* solution that has microscopic particles of **<a class="one" href="https://pubchem.ncbi.nlm.nih.gov/compound/6557">polyisoprene</a>** (i.e. *natural rubber*) suspended within them.**<sup>10-12</sup>**  
-&nbsp; &nbsp; In addition to *natural rubber*, **latex** contains a wide variety of *bioactive* compounds that make the plant inedible to most animals.**<sup>12-14</sup>** The most important bioactive compounds that we have so far identified are <span id="Blue">C</span>ardiac <span id="Blue">G</span>lycosides (<span id="Blue">CG</span>), digestive <span id="Dred">Proteases</span> and <span id="Dred">Phenolics</span>. Nevertheless, some herbivores including Monarch caterpillars (*Danaus plexoppus*) are *obligate* feeders of **Milkweeds**. In fact, this specialization on Milkweed plants has been adopted by over 100 insect species, largely as a mode of chemical defense against predators.**<sup>14</sup>** In addition to the plant's characteristic sticky **latex**, **Milkweeds** have unique flowers and pod-like fruits.**<sup>7</sup>** The latter are packed with silky <u>haired</u> seeds that are adapted for wind dispersal (also buoyant in water), while the flowers display very distinctive and complex features (**Fig. 1**).  
+<a id="Mkw_Morph"></a>**3. <u>MILKWEED MORPHOLOGY \& FEATURES</u>:** As their name suggests **Milkweeds** are known for their sticky, often *creamy white* (but can be yellow, orange or clear) **latex** that is exuded in response to tissue damage. Closer examination of **latex** shows that it is unlike plant **sap** or **resin** in a number of ways. Firstly, **sap** is an aqueous solution that is transported by the plant's well known vasculature elements (xylem and phloem), while **resins** are a fat-soluble mixture of largely volatile <span id="Dred">Terpenoids</span> and <span id="Dred">Phenolics</span> found within *inter*-cellular spaces, or ducts.**<sup>10</sup>** By contrast, **latex** is produced and stored (under pressure) in *living cells* known as **lactifers**.**<sup>11,12</sup>** These elongated and branching cells form *unique* tubular networks throughout most of the plant (i.e. independent of the vascular bundles). The **latex** stored in these **lactifers** is an <u>emulsion</u> or *colloidal* solution that has microscopic particles of **<a class="one" href="https://pubchem.ncbi.nlm.nih.gov/compound/6557">polyisoprene</a>** (i.e. *natural rubber*) suspended within them.**<sup>11-13</sup>**  
+&nbsp; &nbsp; In addition to *natural rubber*, **latex** contains a wide variety of *bioactive* compounds that make the plant inedible to most animals.**<sup>13-15</sup>** Some of the most important bioactive **latex** compounds so far identified are <span id="Blue">C</span>ardiac <span id="Blue">G</span>lycosides (<span id="Blue">CG</span>), digestive <span id="Dred">Proteases</span> and <span id="Dred">Phenolics</span>. Many herbivores like the larval/caterpillar stage of the Monarch butterfly (*Danaus plexoppus*) are *obligate* feeders of **Milkweeds**. In fact, this **Milkweed** specialization has been adopted by over 100 insect species, largely as a mode of chemical defense against predators.**<sup>15</sup>** In addition to the plant's characteristic sticky **latex**, **Milkweeds** have unique flowers and pod-like fruits.**<sup>7</sup>** The latter are packed with silky <u>haired</u> seeds that are adapted for wind dispersal (also buoyant in water), while the flowers display very distinctive and complex features (**Fig. 1**).  
 <!---------------------------------------------------------------------------->
 <!-------------------- FIG 1 - MILKWEED FLOWER STRUCTURE --------------------->
 <!---------------------------------------------------------------------------->
 <a id="Fig_MkwFlower"></a>
+
 <figure>
 
 <img src="images/Fig1_MlkwdFlower.jpg" alt="" width="800px"/>
@@ -130,7 +248,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 </figcaption>
 </figure>  
 
-&nbsp; &nbsp; **Milkweed** flowers are arranged in either flat-topped or round clusters called *umbels* (i.e. latin *umbella*: "*a sunshade, parasol or umbrella*"). Individual flowers have two distinctive parts -- a lower <u>*corolla*</u> and upper <u>*corona*</u> (**Fig. 1**). The lower *corolla* is made up of 5 backward-pointing (usually) petals, while the upper nectar containing *corona* is composed (usually) of 5 pairs of <u>*hoods*</u> and <u>*horns*</u>. The *hoods* extend from the base of the *stamens* and house a horn-like appendage (nectar reservoir) that arches over top of a central *gem*-like *gynostegium* (fused female *stigma* and male *anthers*). This unusual flower structure results in an equally unusual pollination mechanism. Like orchids, the pollen of **Milkweed** is packaged into discrete units called <u>*pollinia*</u>. They are part of *wishbone*-like structure called a <u>*pollinarium*</u> that contains a pair of *pollinium*, a <u>*translator*</u> and <u>*corpusculum*</u>.**<sup>7</sup>** The *pollinia* are connected to the *corpusculum*, a small disc-like gland at the base of the "*wishbone*", via the forking "*arms*" of the *translator*. Visually, the *corpusculum* (apex of the *pollinarium*) sits atop a narrow opening (<u>*alar fissure*</u>) into the <u>*stigmatic chamber*</u>, which houses the *pollinarium* (**Fig. 1**). When the leg of a feeding insect slips between the *hoods* and comes into contact with the *corpusculum* it can free the *pollinia* and carry it to other **Milkweed** plants. Given the arduous nature of the **<a class="one" href="https://www.fs.usda.gov/wildflowers/pollinators/importance.shtml">pollination</a>** process, only relatively large insects are capable of carrying out this task.  
+&nbsp; &nbsp; **Milkweed** flowers are arranged in either flat-topped or round clusters called *umbels* (i.e. latin *umbella*: "*a sunshade, parasol or umbrella*"). Individual flowers have two distinctive parts -- a lower <u>*corolla*</u> and upper <u>*corona*</u> (**Fig. 1**). The lower *corolla* is made up of 5 backward-pointing (usually) petals, while the upper nectar containing *corona* is composed (usually) of 5 pairs of <u>*hoods*</u> and <u>*horns*</u>. The *hoods* extend from the base of the *stamens* and house a horn-like appendage (nectar reservoir) that arches over top of a central *gem*-like *gynostegium* (fused female *stigma* and male *anthers*). This unusual flower structure results in an equally unusual pollination mechanism. Like orchids, the pollen of **Milkweed** is packaged into discrete units called <u>*pollinia*</u>. They are part of *wishbone*-like structure called a <u>*pollinarium*</u> that contains a pair of *pollinium*, a <u>*translator*</u> and <u>*corpusculum*</u>.**<sup>8</sup>** The *pollinia* are connected to the *corpusculum*, a small disc-like gland at the base of the "*wishbone*", via the forking "*arms*" of the *translator*. Visually, the *corpusculum* (apex of the *pollinarium*) sits atop a narrow opening (<u>*alar fissure*</u>) into the <u>*stigmatic chamber*</u>, which houses the *pollinarium* (**Fig. 1**). When the leg of a feeding insect slips between the *hoods* and comes into contact with the *corpusculum* it can free the *pollinia* and carry it to other **Milkweed** plants. Given the arduous nature of the **<a class="one" href="https://www.fs.usda.gov/wildflowers/pollinators/importance.shtml">pollination</a>** process, only relatively large insects are capable of carrying out this task.  
 <hr style="border:2px solid gray">
 
 <!----------------------------------------------------------------->
@@ -138,6 +256,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 <!----------------------------------------------------------------->
 <a id="Photo_BM"></a>
 **1. BUTTERFLY MILKWEED (**<i>Asclepias tuberosa L.</i>**):** **S4**, **G5**  
+
 <figure>
 <img src="images/OrMkwd_v2pics.jpg" alt="" width="800px"/>
 
@@ -146,54 +265,63 @@ a.one:hover {color: rgb(255, 20, 100);}
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129775/Asclepias_tuberosa">Butterfly Milkweed</a>** (*aka* Orange Milkweed) is one of the few native orange wildflowers, making it relatively easy to spot when it blooms (mid-to-late June) in areas containing open sandy soils. Its a relatively common plant at **<span id="Blue">OPC</span>** where it grows singly or in small clusters. This forb is only found in Ontario and Quebec (rare) within Canada. Unfortunately in Ontario populations of *Asclepias tuberosa* are under threat by the loss/fragmentation of habitat (i.e. prairie and savannas) and the suppression of regenerative surface fires. It is also found in many other parts of eastern North America, but its status varies from region to region. In fact in many American states its status appears to be largely unknown.**<sup>15</sup>**
+**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129775/Asclepias_tuberosa">Butterfly Milkweed</a>** (*aka* Orange Milkweed) is one of the few native orange wildflowers, making it relatively easy to spot when it blooms (mid-to-late June) in areas containing open sandy soils. Its a relatively common plant at **<span id="Blue">OPC</span>** where it grows singly or in small clusters. This forb is only found in Ontario and Quebec (rare) within Canada. Unfortunately in Ontario populations of *Asclepias tuberosa* are under threat by the loss/fragmentation of habitat (i.e. prairie and savannas) and the suppression of regenerative surface fires. It is also found in many other parts of eastern North America, but its status varies from region to region. In fact in many American states its status appears to be largely unknown.**<sup>16</sup>**
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** **Butterfly Milkweed** is an important indicator species of healthy prairie habitats with reported medicinal properties (**Note:** the genus, *Asclepias*, refers to the Greek god of medicine *Asklepios*). **First Nations People** were known to chew the plant root as a cure for pleurisy and other pulmonary ailments, as well as make tea to treat diarrhea and stomach ailments. From an evolutionary perspective, the flat-top *umbel* arrangement of the flowers provides a convenient resting platform for pollinating insects to feed on its nectar. This is just one co-evolutionary strategy that plants have adapted to promote insect pollination.**<sup>16</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** **Butterfly Milkweed** is an important indicator species of healthy prairie habitats with reported medicinal properties (**Note:** the genus, *Asclepias*, refers to the Greek god of medicine *Asklepios*). **First Nations People** were known to chew the plant root as a cure for pleurisy and other pulmonary ailments, as well as make tea to treat diarrhea and stomach ailments. From an evolutionary perspective, the flat-top *umbel* arrangement of the flowers provides a convenient resting platform for pollinating insects to feed on its nectar. This is just one co-evolutionary strategy that plants have adapted to promote insect pollination.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
 <a id="Photo_PM"></a>
 **2. PURPLE MILKWEED (**<i>Asclepias purpurascens L.</i>**):** <span id="Red">S1</span>, **G4G5**  
+
 <figure>
+
 <img src="images/PurMkwd_v2pics.jpg" alt="" width="800px"/>
+
 <figcaption>
 <b>Figure 3.</b> As the flowers of the <b>Purple Milkweed</b> mature they develop a deeper purple colour. Note how the difference in colour and shape of the two umbels in the right picture (i.e. one on the right has more loosely arranged, deeper coloured flowers).
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.145205/Asclepias_purpurascens">Purple Milkweed</a>** is a native perennial forb of eastern North America and considered a key indicator species for oak savannas. Although its habitat requirements are not particularly restrictive they seem to prefer the partly shaded areas of Oak savannas at **<span id="Blue">OPC</span>** where it grows singly or in fairly low numbers. In Ontario its status is critically imperiled (<span id="Red">S1</span>). In many other parts of its range its status is either vulnerable (<span id="Blue">S3</span>), imperiled (<span id="Dred">S2</span>), critically imperiled (<span id="Red">S1</span>) or simply not known. There are only a few eastern states where its population appears to be secure. Obviously its populations would benefit from further protective measures (i.e. habitat restoration).**<sup>15</sup>**  
+**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.145205/Asclepias_purpurascens">Purple Milkweed</a>** is a native perennial forb of eastern North America and considered a key indicator species for oak savannas. Although its habitat requirements are not particularly restrictive they seem to prefer the partly shaded areas of Oak savannas at **<span id="Blue">OPC</span>** where it grows singly or in fairly low numbers. In Ontario its status is critically imperiled (<span id="Red">S1</span>). In many other parts of its range its status is either vulnerable (<span id="Blue">S3</span>), imperiled (<span id="Dred">S2</span>), critically imperiled (<span id="Red">S1</span>) or simply not known. There are only a few eastern states where its population appears to be secure. Obviously its populations would benefit from further protective measures (i.e. habitat restoration).**<sup>16</sup>**  
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** Similar to other **Milkweeds**, *Asclepias purpurascens L.* attracts many type of pollinator species, including (among others) bees, butterflies and hummingbirds. They have a common flower structure (i.e. *corolla* - 5 reflected petals, *corona* - 5 pairs of hoods and curved horns) and like many other **Milkweeds** produce a white latex that contains toxic **<span id="Blue">CG</span>**.**<sup>16</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** Similar to other **Milkweeds**, *Asclepias purpurascens L.* attracts many type of pollinator species, including (among others) bees, butterflies and hummingbirds. They have a common flower structure (i.e. *corolla* - 5 reflected petals, *corona* - 5 pairs of hoods and curved horns) and like many other **Milkweeds** produce a white latex that contains toxic **<span id="Blue">CG</span>**.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
 <a id="Photo_SwM"></a>
 **3. SWAMP MILKWEED (**<i>Asclepias incarnata</i>**):** **S5**, **G5T5**  
+
 <figure>
+
 <img src="images/SwMkwd_v2pics.jpg" alt="" width="800px"/>
+
 <figcaption>
 <b>Figure 4.</b> This cluster of <i>A. incarnata</i> plants were found (as one would expect from its name) growing next to a creek flowing into a small pond at Ojibway Park.
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129944/Asclepias_incarnata">Swamp Milkweed</a>** (*aka* Pleurisy Root) like other species in this family, is a native perennial forb that is found in may parts of North America. As its name implies this *Ascelpias* species prefers moist habitats (e.g. wet meadows, marshes, the banks of rivers and streams), but is also found in drier areas such as fields and prairies.**<sup>15</sup>**
+**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129944/Asclepias_incarnata">Swamp Milkweed</a>** (*aka* Pleurisy Root) like other species in this family, is a native perennial forb that is found in may parts of North America. As its name implies this *Ascelpias* species prefers moist habitats (e.g. wet meadows, marshes, the banks of rivers and streams), but is also found in drier areas such as fields and prairies.**<sup>16</sup>**
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** *A. incarnata* is the preferred food of Monarch Butterfly (*Danaus plexippus*) caterpillars and an important source of nectar for pollinators, including hummingbirds. The young shoots and seed pods, as well as the flower buds are all edible. Extracts of the root and other plant parts have been used as an emetic (i.e. induce vomiting), diuretic (i.e. promote urination) and a anti-helminth (i.e. purge parasitic worms). It is also commonly referred to as Pleurisy Root for its use in the treatment of lung problems. As mentioned previously, it is the preferred Milkweed species for making cordage and twine due to its very tough stem fibres.**<sup>16</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** *A. incarnata* is the preferred food of Monarch butterfly (*Danaus plexippus*) caterpillars and an important source of nectar for pollinators, including hummingbirds. The young shoots and seed pods, as well as the flower buds are all edible. Extracts of the root and other plant parts have been used as an emetic (i.e. induce vomiting), diuretic (i.e. promote urination) and a anti-helminth (i.e. purge parasitic worms). It is also commonly referred to as Pleurisy Root for its use in the treatment of lung problems. As mentioned previously, it is the preferred Milkweed species for making cordage and twine due to its very tough stem fibres.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
 <a id="Photo_CM"></a>
 **4. COMMON MILKWEED (**<i>Asclepias syriaca</i>**):** **S5**, **G5**  
+
 <figure>
+
 <img src="images/ComMkwd_v2pics.jpg" alt="" width="800px"/>
+
 <figcaption>
 <b>Figure 5.</b> The red and black colour pattern of the Milkweed beetle (<i>Tetraopes tetrophthalmus</i>) seen on the right advertises to potential predators that it is not good to eat (i.e. <i>aposematic</i> coloration). These insects dine on the leaves and roots of this specific <b>Milkweeds</b> species and store the toxic <span id="Blue">CG</span> in their tissues to ward off predators.  
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** *Asclepias syriaca* is a native perennial forb that is common to eastern North America, but a rare inhabitant of the Midwest. It is known to colonize disturbed areas, like roadsides, but can also be found in open fields and pastures.**<sup>15</sup>**  
+**POPULATION \& HABITAT:** *Asclepias syriaca* is a native perennial forb that is common to eastern North America, but a rare inhabitant of the Midwest. It is known to colonize disturbed areas, like roadsides, but can also be found in open fields and pastures.**<sup>16</sup>**  
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** This Milkweed species is a food source for many insects and animals, including humans. The nectar of these plants attracts many insect species and hummingbirds. Its toxic latex-laden leaves is food source for many specialized insects, especially the larvae of Monarch Butterflies and red Milkweed beetles (*Tetraopes tetrophthalmus*). As mentioned previously, its young stems, flower buds and seed pods are all edible when properly prepared.**<sup>16</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** This Milkweed species is a food source for many insects and animals. Like other **Milkweeds** its nectar attracts many insect species, as well as hummingbirds. Moreover, many insects are *Asclepias spp.* specialists such as Monarch butterfly caterpillars and the **Red Milkweed beetle** (*Tetraopes tetrophthalmus*). As mentioned previously, its young stems, flower buds and seed pods are all edible when properly prepared.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
@@ -236,14 +364,16 @@ a.one:hover {color: rgb(255, 20, 100);}
 **4.** Cattell M. and Gold H. (1938). The influence of digitalis glucosides on the force of contraction of mammalian cardiac muscle. Journal of Pharmacology and Experimental Therapeutics 62(1):116-125.  
 **5.** Lefèvre T., Oliver L., Hunter M.D. and De Roode J.C. (2010). Evidence for trans‐generational medication in nature. Ecology Letters 13(12):1485-1493.  
 **6.** Costanza R., d'Arge R., De Groot R., Farber S., Grasso M., Hannon B., Limburg K., Naeem S., O'neill R.V., Paruelo J. and Raskin R.G. (1997). The value of the world's ecosystem services and natural capital. Nature 387(6630):253-260.  
-**7.** Wyatt R. and Broyles S.B. (1994). Ecology and evolution of reproduction in milkweeds. Annual Review of Ecology and Systematics 25:423-441.  
-**8.** **<a class="one" href="https://www.audubon.org/news/what-nesting-materials-are-safe-birds">Audubon Society</a>**  
-**9.** Langenheim, J.H. (2003). Plant Resins: Chemistry, Evolution, Ecology and Ethnobotany. Publisher: Timber Press Inc.,Portland, Oregon, 612 pages.  
-**10.** Pickard W.F. (2008). Laticifers and secretory ducts: two other tube systems in plants. New Phytologist 177(4):877-888.  
-**11** Castelblanque L., Balaguer B., Martí C., Rodríguez J.J., Orozco M. and Vera P. (2017). Multiple facets of laticifer cells. Plant Signaling & Behavior 12(7):p.e1300743.  
-**12.** Ramos M.V., Demarco D., da Costa Souza I.C. and de Freitas C.D.T. (2019). Laticifers, latex, and their role in plant defense. Trends in Plant Science, 24(6):553-567.  
-**13.** Agrawal A.A. and Konno K. (2009). Latex: a model for understanding mechanisms, ecology, and evolution of plant defense against herbivory. Annu. Rev. Ecol. Evol. Syst. 40:311-331.  
-**14.** Dobler S., Petschenka G., Wagschal V. and Flacht L. (2015). Convergent adaptive evolution–how insects master the challenge of cardiac glycoside‐containing host plants. Entomologia Experimentalis et Applicata 157(1):30-39.  
-**15.** NatureServe (2023). NatureServe Network Biodiversity Location Data accessed through NatureServe Explorer [web application]. NatureServe, Arlington, Virginia. Available https://explorer.natureserve.org/. (Accessed: Sept. 27, 2022).  
-**16.** USDA, NRCS (2023). The PLANTS Database (http://plants.usda.gov). National Plant Data Team, Greensboro, NC USA.  
+**7.** Knudsen, H.D. and Sayler, R.Y. (1992). Milkweed: the worth of a weed. The Yearbook of agriculture (USA). New Crops, New Uses, New Markets: Industrial and Commercial Products from US Agriculture. US Government Printing Office. United States. Dept. of Agriculture. Office of Publishing and Visual Communication. pg 118-123.  
+**8.** Wyatt R. and Broyles S.B. (1994). Ecology and evolution of reproduction in milkweeds. Annual Review of Ecology and Systematics 25:423-441.  
+**9.** **<a class="one" href="https://www.audubon.org/news/what-nesting-materials-are-safe-birds">Audubon Society</a>**  
+**10.** Langenheim, J.H. (2003). Plant Resins: Chemistry, Evolution, Ecology and Ethnobotany. Publisher: Timber Press Inc.,Portland, Oregon, 612 pages.  
+**11.** Pickard W.F. (2008). Laticifers and secretory ducts: two other tube systems in plants. New Phytologist 177(4):877-888.  
+**12** Castelblanque L., Balaguer B., Martí C., Rodríguez J.J., Orozco M. and Vera P. (2017). Multiple facets of laticifer cells. Plant Signaling & Behavior 12(7):p.e1300743.  
+**13.** Ramos M.V., Demarco D., da Costa Souza I.C. and de Freitas C.D.T. (2019). Laticifers, latex, and their role in plant defense. Trends in Plant Science, 24(6):553-567.  
+**14.** Agrawal A.A. and Konno K. (2009). Latex: a model for understanding mechanisms, ecology, and evolution of plant defense against herbivory. Annu. Rev. Ecol. Evol. Syst. 40:311-331.  
+**15.** Dobler S., Petschenka G., Wagschal V. and Flacht L. (2015). Convergent adaptive evolution–how insects master the challenge of cardiac glycoside‐containing host plants. Entomologia Experimentalis et Applicata 157(1):30-39.  
+**16.** NatureServe (2023). NatureServe Network Biodiversity Location Data accessed through NatureServe Explorer [web application]. NatureServe, Arlington, Virginia. Available https://explorer.natureserve.org/. (Accessed: Sept. 27, 2022).  
+**17.** USDA, NRCS (2023). The PLANTS Database (http://plants.usda.gov). National Plant Data Team, Greensboro, NC USA.  
+
 
