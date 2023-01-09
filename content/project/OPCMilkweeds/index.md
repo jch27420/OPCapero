@@ -234,15 +234,13 @@ a.one:hover {color: rgb(255, 20, 100);}
 <!------------------------------------------------------------->
 <a id="Mkw_Morph"></a>**3. <u>MILKWEED MORPHOLOGY \& FEATURES</u>:** As their name suggests **Milkweeds** are known for their sticky, often *creamy white* (but can be yellow, orange or clear) **latex** that is exuded in response to tissue damage. Closer examination of **latex** shows that it is unlike plant **sap** or **resin** in a number of ways. Firstly, **sap** is an aqueous solution that is transported by the plant's well known vasculature elements (xylem and phloem), while **resins** are a fat-soluble mixture of largely volatile <span id="Dred">Terpenoids</span> and <span id="Dred">Phenolics</span> found within *inter*-cellular spaces, or ducts.**<sup>10</sup>** By contrast, **latex** is produced and stored (under pressure) in *living cells* known as **lactifers**.**<sup>11,12</sup>** These elongated and branching cells form *unique* tubular networks throughout most of the plant (i.e. independent of the vascular bundles). The **latex** stored in these **lactifers** is an <u>emulsion</u> or *colloidal* solution that has microscopic particles of **<a class="one" href="https://pubchem.ncbi.nlm.nih.gov/compound/6557">polyisoprene</a>** (i.e. *natural rubber*) suspended within them.**<sup>11-13</sup>**  
 &nbsp; &nbsp; In addition to *natural rubber*, **latex** contains a wide variety of *bioactive* compounds that make the plant inedible to most animals.**<sup>13-15</sup>** Some of the most important bioactive **latex** compounds so far identified are <span id="Blue">C</span>ardiac <span id="Blue">G</span>lycosides (<span id="Blue">CG</span>), digestive <span id="Dred">Proteases</span> and <span id="Dred">Phenolics</span>. Many herbivores like the larval/caterpillar stage of the Monarch butterfly (*Danaus plexoppus*) are *obligate* feeders of **Milkweeds**. In fact, this **Milkweed** specialization has been adopted by over 100 insect species, largely as a mode of chemical defense against predators.**<sup>15</sup>** In addition to the plant's characteristic sticky **latex**, **Milkweeds** have unique flowers and pod-like fruits.**<sup>7</sup>** The latter are packed with silky <u>haired</u> seeds that are adapted for wind dispersal (also buoyant in water), while the flowers display very distinctive and complex features (**Fig. 1**).  
+
 <!---------------------------------------------------------------------------->
 <!-------------------- FIG 1 - MILKWEED FLOWER STRUCTURE --------------------->
 <!---------------------------------------------------------------------------->
 <a id="Fig_MkwFlower"></a>
-
 <figure>
-
 <img src="images/Fig1_MlkwdFlower.jpg" alt="" width="800px"/>
-
 <figcaption>
 <b>Figure 1: Milkweed Flower Structure.</b> <b>(A)</b> The <b>pollinarium</b> is a <i>winged</i> or "<i>wishbone</i>" shaped structure that contains two discrete sacs of pollen, or <b>pollinium</b>, that are joined to a central disc-like <b>corpusculum</b> via the <i>arms</i> of the <b>translator</b>. <b>(B)</b> This cartoon shows an overhead view of the shape and position of the flower elements, including the <i>coronal</i> <b>hood</b> and <b>horn</b> (nectar reservoir) and the position of the <b>corpusculum</b> in relation to the much larger <b>gynostegium</b> (<sup>&#9734;</sup>fused female <b>stigma</b> and male <b>anther</b>). <b>(C)</b> This picture of Purple Milkweed flowers shows some of its floral elements, including 5 backward pointing (reflected) petals that make up the <b>corolla</b>.  
 </figcaption>
@@ -259,15 +257,14 @@ a.one:hover {color: rgb(255, 20, 100);}
 
 <figure>
 <img src="images/OrMkwd_v2pics.jpg" alt="" width="800px"/>
-
 <figcaption>
 <b>Figure 2.</b> This beautiful <b>Milkweed</b> is noted for its flat-top umbels of small orange flowers, typical <i>hood</i>-and-<i>horn</i> corona structure, hairy stems and alternatively arranged leaves. As the name of this plant implies it attracts many types of butterflies, such as Hairstreaks, Monarchs and Great Spangled Fritillaries.  
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129775/Asclepias_tuberosa">Butterfly Milkweed</a>** (*aka* Orange Milkweed) is one of the few native orange wildflowers, making it relatively easy to spot when it blooms (mid-to-late June) in areas containing open sandy soils. Its a relatively common plant at **<span id="Blue">OPC</span>** where it grows singly or in small clusters. This forb is only found in Ontario and Quebec (rare) within Canada. Unfortunately in Ontario populations of *Asclepias tuberosa* are under threat by the loss/fragmentation of habitat (i.e. prairie and savannas) and the suppression of regenerative surface fires. It is also found in many other parts of eastern North America, but its status varies from region to region. In fact in many American states its status appears to be largely unknown.**<sup>16</sup>**
+**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.129775/Asclepias_tuberosa">Butterfly Milkweed</a>** (*aka* **Orange Milkweed**) is one of the few native orange wildflowers, making it relatively easy to spot when it blooms (mid-to-late June) in areas containing open sandy soils. Its a relatively common plant at **<span id="Blue">OPC</span>** where it grows singly or in small clusters. This forb is only found in Ontario and Quebec (rare) within Canada. Unfortunately in Ontario populations of *A. tuberosa* are under threat by the loss/fragmentation of habitat (i.e. prairie and savannas) and the suppression of regenerative surface fires. It is also found in many other parts of eastern North America, but its status varies from region to region. In fact in many American states its status appears to be largely unknown.**<sup>16</sup>**
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** **Butterfly Milkweed** is an important indicator species of healthy prairie habitats with reported medicinal properties (**Note:** the genus, *Asclepias*, refers to the Greek god of medicine *Asklepios*). **First Nations People** were known to chew the plant root as a cure for pleurisy and other pulmonary ailments, as well as make tea to treat diarrhea and stomach ailments. From an evolutionary perspective, the flat-top *umbel* arrangement of the flowers provides a convenient resting platform for pollinating insects to feed on its nectar. This is just one co-evolutionary strategy that plants have adapted to promote insect pollination.**<sup>17</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** *A. tuberosa* is an important <u>indicator species</u> of healthy prairie habitats with reported medicinal properties (**Note:** the genus, *Asclepias*, refers to the Greek god of medicine *Asklepios*). **First Nations People** were known to chew the plant root as a cure for pleurisy and other pulmonary ailments, as well as make tea to treat diarrhea and stomach ailments. From an evolutionary perspective, the flat-top *umbel* arrangement of the flowers provides a convenient resting platform for pollinating insects to feed on its nectar. This is just one co-evolutionary strategy that plants have adapted to promote insect pollination.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
@@ -275,17 +272,15 @@ a.one:hover {color: rgb(255, 20, 100);}
 **2. PURPLE MILKWEED (**<i>Asclepias purpurascens L.</i>**):** <span id="Red">S1</span>, **G4G5**  
 
 <figure>
-
 <img src="images/PurMkwd_v2pics.jpg" alt="" width="800px"/>
-
 <figcaption>
 <b>Figure 3.</b> As the flowers of the <b>Purple Milkweed</b> mature they develop a deeper purple colour. Note how the difference in colour and shape of the two umbels in the right picture (i.e. one on the right has more loosely arranged, deeper coloured flowers).
 </figcaption>
 </figure>
 
-**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.145205/Asclepias_purpurascens">Purple Milkweed</a>** is a native perennial forb of eastern North America and considered a key indicator species for oak savannas. Although its habitat requirements are not particularly restrictive they seem to prefer the partly shaded areas of Oak savannas at **<span id="Blue">OPC</span>** where it grows singly or in fairly low numbers. In Ontario its status is critically imperiled (<span id="Red">S1</span>). In many other parts of its range its status is either vulnerable (<span id="Blue">S3</span>), imperiled (<span id="Dred">S2</span>), critically imperiled (<span id="Red">S1</span>) or simply not known. There are only a few eastern states where its population appears to be secure. Obviously its populations would benefit from further protective measures (i.e. habitat restoration).**<sup>16</sup>**  
+**POPULATION \& HABITAT:** **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.145205/Asclepias_purpurascens">Purple Milkweed</a>** is a native perennial forb of eastern North America and considered a key <u>indicator species</u> for healthy Oak savannas. Although its habitat requirements are not particularly restrictive they seem to prefer the partly shaded areas of Oak savannas at **<span id="Blue">OPC</span>** where it grows singly or in very few numbers. In Ontario its status is critically imperiled (<span id="Red">S1</span>). In many other parts of its range its status is either vulnerable (<span id="Blue">S3</span>), imperiled (<span id="Dred">S2</span>), critically imperiled (<span id="Red">S1</span>) or simply unknown. There are only a few eastern states where its population appears to be secure. Obviously it would benefit greatly from further protective measures (i.e. habitat restoration).**<sup>16</sup>**  
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** Similar to other **Milkweeds**, *Asclepias purpurascens L.* attracts many type of pollinator species, including (among others) bees, butterflies and hummingbirds. They have a common flower structure (i.e. *corolla* - 5 reflected petals, *corona* - 5 pairs of hoods and curved horns) and like many other **Milkweeds** produce a white latex that contains toxic **<span id="Blue">CG</span>**.**<sup>17</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** Similar to other **Milkweeds**, *A. purpurascens* attracts many type of pollinator species, including (among others) bees, butterflies and hummingbirds. They have a common flower structure (i.e. *corolla* - 5 reflected petals, *corona* - 5 pairs of hoods and curved horns) and like many other **Milkweeds** produce a white latex that contains toxic **<span id="Blue">CG</span>**.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
@@ -293,9 +288,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 **3. SWAMP MILKWEED (**<i>Asclepias incarnata</i>**):** **S5**, **G5T5**  
 
 <figure>
-
 <img src="images/SwMkwd_v2pics.jpg" alt="" width="800px"/>
-
 <figcaption>
 <b>Figure 4.</b> This cluster of <i>A. incarnata</i> plants were found (as one would expect from its name) growing next to a creek flowing into a small pond at Ojibway Park.
 </figcaption>
@@ -311,9 +304,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 **4. COMMON MILKWEED (**<i>Asclepias syriaca</i>**):** **S5**, **G5**  
 
 <figure>
-
 <img src="images/ComMkwd_v2pics.jpg" alt="" width="800px"/>
-
 <figcaption>
 <b>Figure 5.</b> The red and black colour pattern of the Milkweed beetle (<i>Tetraopes tetrophthalmus</i>) seen on the right advertises to potential predators that it is not good to eat (i.e. <i>aposematic</i> coloration). These insects dine on the leaves and roots of this specific <b>Milkweeds</b> species and store the toxic <span id="Blue">CG</span> in their tissues to ward off predators.  
 </figcaption>
@@ -321,7 +312,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 
 **POPULATION \& HABITAT:** *Asclepias syriaca* is a native perennial forb that is common to eastern North America, but a rare inhabitant of the Midwest. It is known to colonize disturbed areas, like roadsides, but can also be found in open fields and pastures.**<sup>16</sup>**  
 
-**ECOLOGICAL \& MEDICINAL PROPERTIES:** This Milkweed species is a food source for many insects and animals. Like other **Milkweeds** its nectar attracts many insect species, as well as hummingbirds. Moreover, many insects are *Asclepias spp.* specialists such as Monarch butterfly caterpillars and the **Red Milkweed beetle** (*Tetraopes tetrophthalmus*). As mentioned previously, its young stems, flower buds and seed pods are all edible when properly prepared.**<sup>17</sup>**  
+**ECOLOGICAL \& MEDICINAL PROPERTIES:** This Milkweed species is a food source for many insects and animals. Like other **Milkweeds** its nectar attracts many insect species, as well as hummingbirds. Moreover, many insects are *Asclepias spp.* specialists such as **Monarch butterfly** caterpillars and the **Red Milkweed beetle** (*Tetraopes tetrophthalmus*). As mentioned previously, its young stems, flower buds and seed pods are all edible when properly prepared.**<sup>17</sup>**  
 
 <hr style="border:2px solid gray">
 
