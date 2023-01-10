@@ -12,7 +12,7 @@ categories:
 - R
 - package
 # layout options: single or single-sidebar
-layout: single-sidebar
+layout: single
 links:
 - icon: door-open
   icon_pack: fas
@@ -27,8 +27,6 @@ links:
   name: Blog post
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 ---
-
-{{< here >}}
 
 ### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
 

@@ -10,6 +10,75 @@ tags:
 categories:
   - Projects
 layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: OPC
+  url: http://www.ojibway.ca/index.htm
+- icon: door-open
+  icon_pack: fas
+  name: ICS
+  url: https://stratigraphy.org/guide/
+- icon: door-open
+  icon_pack: fas
+  name: TallGrassOntario
+  url: https://tallgrassontario.org/wp-site/
+- icon: door-open
+  icon_pack: fas
+  name: Cornell Bird Lab
+  url: https://www.allaboutbirds.org/
+- icon: door-open
+  icon_pack: fas
+  name: NatureServe
+  url: https://explorer.natureserve.org/
+- icon: door-open
+  icon_pack: fas
+  name: USDA - Plants
+  url: https://plants.usda.gov/home
+- icon: door-open
+  icon_pack: fas
+  name: HHMI - Biointeractive
+  url: https://www.biointeractive.org/classroom-resources
+- icon: door-open
+  icon_pack: fas
+  name: WWF - Bison
+  url: https://www.worldwildlife.org/pages/how-bison-help-shape-the-northern-great-plains
+- icon: door-open
+  icon_pack: fas
+  name: USGS
+  url: https://www.usgs.gov/programs/climate-research-and-development-program/science/paleoclimate
+- icon: door-open
+  icon_pack: fas
+  name: UoT PlanetEarth
+  url: https://planetearth.utsc.utoronto.ca/online/
+- icon: door-open
+  icon_pack: fas
+  name: BNL - NuDat3
+  url: https://www.nndc.bnl.gov/nudat3/
+- icon: door-open
+  icon_pack: fas
+  name: BGS - Foraminifera
+  url: https://www.bgs.ac.uk/discovering-geology/fossils-and-geological-time/foraminifera/
+- icon: door-open
+  icon_pack: fas
+  name: NASA - Oribital Cycles
+  url: https://climate.nasa.gov/news/2948/milankovitch-orbital-cycles-and-their-role-in-earths-climate/
+- icon: door-open
+  icon_pack: fas
+  name: Protein Data Bank
+  url: https://www.rcsb.org/structure/7NL4
+- icon: door-open
+  icon_pack: fas
+  name: NOAA - SciJinks
+  url: https://scijinks.gov/
+- icon: door-open
+  icon_pack: fas
+  name: NCEI - Paleo Search
+  url: https://www.ncei.noaa.gov/access/paleo-search/
+- icon: door-open
+  icon_pack: fas
+  name: PaleoFire
+  url: https://www.paleofire.org/
 ---
 
 <div style="text-align: center;">
@@ -119,7 +188,7 @@ a.one:hover {color: rgb(255, 20, 100);}
 &nbsp; &nbsp; As shown in the map above <span id="Dred">O</span>jibway <span id="Dred">P</span>rairie <span id="Dred">C</span>omplex (<span id="Dred">OPC</span>) is composed of five distinct areas: (i) **Ojibway Park** (~61.5 ha); (ii) **Ojibway Prairie Provincial Nature Reserve** (105 ha); (iii) **Tallgrass Prairie Heritage Park** (~15.6 ha); (iv) **Spring Garden ANSI** (~117 ha); and (v) **Black Oak Heritage Park** (~50.6 ha). Collectively these areas are home to at least 160 rare plant and animal species within Ontario, which is more than any other site in the province.**<sup>1,2</sup>** Today, <span id="Dred">OPC</span> represents one of the last major remnants of <b><a class="one" href="https://tallgrassontario.org/wp-site/">Tallgrass Communities</a></b> (<span id="Gr2">TGC</span>) within the province and as such is in great need of our protection.**<sup>3-8</sup>**  
 
 **1. HISTORY OF PRAIRIES IN SOUTHERN ONTARIO**  
-&nbsp; &nbsp; <a id="History"></a>Prior to European settlement **grasslands** covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south and central Texas. Looking eastward, the prairie extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grassy plain was the *triangular* shape of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span>.**<sup>9</sup>** This neck-like extension of mid-western prairie once covered most of Iowa and northern Missouri, large parts of neighbouring Illinois (known as the Prairie State), as well as portions of Indiana and Ohio. Just beyond the peninsula's formal borders one could also find substantial patches of **prairie** and **oak savanna** amongst the eastern woodlands and wetlands. A good example of this would be the western end of the Lake Erie. Many eye witness accounts from the early 1800s tell of a large lake plain with extensive swamp forests, oak woodlands and wet prairies.**<sup>10</sup>** As the famed naturalist Harold Mayfield once stated:  
+&nbsp; &nbsp; <a id="History"></a>Prior to European settlement **grasslands** covered much of North America's heartland, stretching from the northern plains of Canada's prairie provinces to south-central Texas. Looking eastward, the prairie extended from the dry foothills of the Rocky Mountains to the large stands of deciduous forest just east of the mighty Mississippi river. A notable feature of this great grassy plain was the *triangular* shape of its eastern border, often referred to as the <span id="Dpurp">Prairie Peninsula</span>.**<sup>9</sup>** This neck-like extension of mid-western prairie once covered most of Iowa and northern Missouri, large parts of neighbouring Illinois (known as the Prairie State), as well as portions of Indiana and Ohio. Just beyond the peninsula's formal borders one could also find substantial patches of **prairie** and **oak savanna** amongst the eastern woodlands and wetlands. A good example of this would be the western end of the Lake Erie. Many eye witness accounts from the early 1800s tell of a large lake plain with extensive swamp forests, oak woodlands and wet prairies.**<sup>10</sup>** As the famed naturalist Harold Mayfield once stated:  
 
 >"...*Few people today realize the original extent of wet grasslands in this region. One continuous strip extended almost without a break from Sandusky Bay around the southwest corner of Lake Erie and up the western shore almost to Detroit. An early observer estimated the area of this tract at more than 200,000 acres* [>800 km&#178;]."**<sup>10</sup>**  
 
@@ -140,42 +209,49 @@ Even today the names of some settlements remind us of southern Ontario's past gr
 <figure id="FRight250">
 <img src="images/BBStem.jpg" alt="" width="200px"/>
 <figcaption>
-<b>Big Bluestem</b>
+<b>Big Bluestem<sup>S4G5</sup></b>
 </figcaption>
 </figure>  
 
 <figure id="FRight150">
 <img src="images/LBstem.jpg" alt="" width="200px"/>
 <figcaption>
-<b>Little Bluestem</b>
+<b>Little Bluestem<sup>S4G5</sup></b>
 </figcaption>
 </figure> 
 
 <figure id="FRight175">
 <img src="images/HPuccoon.jpg" alt="" width="200px"/>
 <figcaption>
-<b>Hoary Puccoon</b>
+<b>Hoary Puccoon<sup><span id="Blue">S3</span>G5</sup></b>
 </figcaption>
 </figure>
 
 <figure id="FRight175">
-<img src="images/PBEGrass.jpg" alt="" width="200px"/>
+<img src="images/PBEGrass.jpg" alt="" width="175px"/>
 <figcaption>
-<b>Pointed Blue-eyed-grass</b>
+<b>Pointed Blue-eyed-grass<sup>S4G5</sup></b>
 </figcaption>
 </figure>
 
 <figure id="FRight175">
 <img src="images/MIronweed.jpg" alt="" width="200px"/>
 <figcaption>
-<b>Missouri Ironweed</b>
+<b>Missouri Ironweed<sup><span id="Blue">S3</span>G4</sup></b>
+</figcaption>
+</figure>
+
+<figure id="FRight175">
+<img src="images/PrairieDock.jpg" alt="" width="200px"/>
+<figcaption>
+<b>Prairie Dock<sup><span id="Red">S1</span>G4</sup></b>
 </figcaption>
 </figure>
 
 <figure id="FRight335">
-<img src="images/DBstar2.jpg" alt="" width="80px"/>
+<img src="images/DBstar2.jpg" alt="" width="85px"/>
 <figcaption>
-<b>Dense Blazing star</b>
+<b>Dense Blazing star<sup><span id="Dred">S2</span>G5</sup></b>
 </figcaption>
 </figure>
 
@@ -186,7 +262,7 @@ Even today the names of some settlements remind us of southern Ontario's past gr
 </figcaption>
 </figure>
 
-&nbsp; &nbsp; The term "*Tallgrass Communities*" (<span id="Gr2">TGC</span>) refers to the types of plants and animals found in these ecosystems (i.e. mix of tallgrass prairies and mostly oak savannas). These rare habitats of eastern North America are home to hundreds of herbaceous plant species (i.e. grasses, sedges, forbs). And as the name suggests they are dominated by tall grasses such as <b><a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.133783/Andropogon_gerardii"> Big Bluestem</a></b> (*Andropogon gerardi*), **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.144026/Spartina_pectinata">Prairie Cordgrass</a>** (*Spartina pectinata*) and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.141861/Schizachyrium_scoparium">Little Bluestem</a>** (*Schizachyrium scoparium*). Many smaller **sedges**, another <u>grass-like</u> plant, as well as hundreds of flowering plant (**forbs**) species can also be found in <span id="Gr2">TGC</span>. For example, Spring brings the first of many beautiful small forbs, such as **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.160803/Lithospermum_canescens">Hoary Puccoon</a>** (*Lithospermum canescens*), **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.137876/Sisyrinchium_angustifolium">Pointed Blue-eyed-grass</a>** (*Sisyrinchium angustifolium*) and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.127933/Hypoxis_hirsuta">Yellow Star Grass</a>** (*Hypoxishirsuta*). Summer soon follows with its own colorful bounty. For example, the deep violet **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.153254/Vernonia_missurica">Missouri Ironweed</a>** (*Vernonia missurica*) and the showy magenta spike of **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.132723/Liatris_spicata">Dense Blazingstar</a>** (*Liatris spicata*). These along with many other flowering plants provide food for a variety of pollinating insects, some of which require a specific plant species to complete their life cycle (e.g. Monarch butterfly and Milkweeds).  
+&nbsp; &nbsp; The term "*Tallgrass Communities*" (<span id="Gr2">TGC</span>) refers to the types of plants and animals found in these ecosystems (i.e. mix of tallgrass prairies and mostly oak savannas). These rare habitats of eastern North America are home to hundreds of herbaceous plant species (i.e. grasses, sedges, forbs). And as the name suggests they are dominated by tall grasses such as <b><a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.133783/Andropogon_gerardii"> Big Bluestem</a></b> (*Andropogon gerardi*), **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.144026/Spartina_pectinata">Prairie Cordgrass</a>** (*Spartina pectinata*) and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.141861/Schizachyrium_scoparium">Little Bluestem</a>** (*Schizachyrium scoparium*). Many smaller **sedges**, another <u>grass-like</u> plant, as well as hundreds of flowering plant (**forbs**) species can also be found in <span id="Gr2">TGC</span>. For example, Spring brings the first of many beautiful small forbs, such as **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.160803/Lithospermum_canescens">Hoary Puccoon</a>** (*Lithospermum canescens*) and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.137876/Sisyrinchium_angustifolium">Pointed Blue-eyed-grass</a>** (*Sisyrinchium angustifolium*). Summer in turn brings forth its own colorful bounty, such as the deep violet **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.153254/Vernonia_missurica">Missouri Ironweed</a>** (*Vernonia missurica*), the tall yellow **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.151316/Silphium_terebinthinaceum">Prairie Dock</a>** with its huge spade-like leaves, and the showy magenta spike of **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.132723/Liatris_spicata">Dense Blazingstar</a>** (*Liatris spicata*). These along with many other flowering plants provide food for a variety of pollinating insects, some of which require a specific plant species to complete their life cycle (e.g. Monarch butterfly and Milkweeds).  
 &nbsp; &nbsp; The **savanna** component of <span id="Gr2">TGC</span> refers to '*parkland*'-like areas that have varying degrees of tree cover (i.e. 10-60%).**<sup>14</sup>** These areas are dominated by both woody and herbaceous plants. At <span id="Dred">OPC</span> the dominate woody species is **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.133488/Quercus_velutina">Black Oak</a>** (*Q. velutina*) and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.159415/Quercus_palustris">Pin Oak</a>** (*Q. palustris*) while the dominate herbaceous plant species is usually tallgrasses. Nevertheless, other oak species (i.e. **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.138617/Quercus_alba">White Oak</a>** and **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.158441/Quercus_macrocarpa">Bur Oak</a>**) and forbs are found in abundance here. It is also interesting to note that some forbs appear to be **savanna** specialists. For example, the beautiful hemi-parasitic **<a class="one" href="https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.152809/Aureolaria_flava">Smooth Yellow False Foxglove</a>** (*Aureolaria flava*) is only found clustered underneath the oak trees at <span id="Dred">OPC</span>. Although *A. flava* is capable of photosynthesis they selectively harvest some water and nutrients from the roots of nearby oaks.**<sup>15</sup>** These parasitized resources presumably helps the plant survive some of the harsher conditions within **savannas** (i.e. occasional droughts, nutrient poor sandy soils).  
 &nbsp; &nbsp; The *transitional* nature of **oak savannas** is what ecologists call an <span id="Dpurp">ecotone</span>. Conceptually these areas represent transitions (either sharp or more gradual) between adjacent but distinct ecological communities (e.g. open prairie and closed canopy forest).**<sup>16</sup>** For example, some of <span id="Dred">OPC</span>'s **oak savannas** connect open prairie to more heavily wooded areas, while other more isolated oaks look like small "*islands*" amid a sea of tall grasses and flowers. Needless to say, these types of transitional communities are complex owing to their varying sizes, shapes (e.g. "*patch-work*" geometry), and the ways they can interact with neighbouring ecosystems (i.e. flow of resources).**<sup>16-19</sup>** Perhaps the most important reason for studying and protecting <span id="Dpurp">ecotones</span>, like **oak savannas**, is because of the reported positive effects they have on species abundance and richness.**<sup>20-22</sup>** Certainly, from my own experiences at <span id="Dred">OPC</span>, the **oak savannas** do attract certain bird species, like the **<a class="one" href="https://www.allaboutbirds.org/guide/Red-headed_Woodpecker/overview"> Red-headed Woodpecker</a>** (*Melanerpes erythrocephalus*) and **<a class="one" href="https://www.allaboutbirds.org/guide/Indigo_Bunting/overview">Indigo Bunting</a>** (*Passerina cyanea*). Although my sightings of *M. erythrocephalus* have often been fleeting, my regular encounters with *P. cyanea* during the summer months have been anything but brief. These brilliantly colored songbirds are quite vocal when feeding on insects along the borders of the oak stands and as a consequence fairly easy to spot.  
 &nbsp; &nbsp; So what factors control the geographic distribution of tallgrass prairies and oak savannas in North America? Although <span id="Gr2">TGC</span> are dynamic systems, like any other natural community, they are greatly influenced by <span id="Blue">climate</span> and natural disturbances (i.e. <span id="Red">wild fires</span> and <span id="Purple">grazing</span>).**<sup>23</sup>**
