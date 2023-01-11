@@ -1,7 +1,7 @@
 ---
 title: "About OPC"
 subtitle: ' '
-excerpt: ' '
+excerpt: "Tallgrass Communities (TGC) like the one at OPC have a rich natural history. This project provides a brief overview of the forces that have shaped and given rise to Tallgrass prairies and Oak savannas within North America."
 date: 2022-09-27
 author: "JCH"
 draft: false
@@ -79,6 +79,10 @@ links:
   icon_pack: fas
   name: PaleoFire
   url: https://www.paleofire.org/
+- icon: door-open
+  icon_pack: fas
+  name: NCBI - PubMed/PubChem/Bookshelf
+  url: https://www.ncbi.nlm.nih.gov/
 ---
 
 <div style="text-align: center;">
@@ -179,9 +183,9 @@ a.one:hover {color: rgb(255, 20, 100);}
   2. <a href="#Eco">Ecology of Tallgrass Communities</a>
      * <a href="#Climate">2.1 Climate</a>
      * <a href="#delta18">&delta;<sup>18</sup><span id="Red">O</span></a>
-     * <a href="#NDis">2.2 Natural Disturbance: Fire, Grazing, Draught</a>
-     * <a href="#Fig1">Figure 1: Earth's Cenozoic Record</a>
-     * <a href="#Fig2">Figure 2: Charcoal Data</a>
+     * <a href="#NDis">2.2 Natural Disturbances of Grasslands: Fire and Grazing</a>
+     * <a href="#Fig1">Figure 1: Cenozoic Record - last 66 million years of Climate</a>
+     * <a href="#Fig2">Figure 2: Eastern North America's Fire History</a>
   3. <a href="#Refs">References</a>
 </details>
 
@@ -258,7 +262,7 @@ Even today the names of some settlements remind us of southern Ontario's past gr
 <figure id="FRight175">
 <img src="images/PrPeninsula.png" alt="" width="225px"/>
 <figcaption>
-<b>Transeau's Prairie Peninsula (1935)<sup>24</sup></b>
+<b>Transeau's Prairie Peninsula (1935)</b>
 </figcaption>
 </figure>
 

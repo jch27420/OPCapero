@@ -1,7 +1,7 @@
 ---
 title: "OPC Milkweeds"
 subtitle: ' '
-excerpt: ' '
+excerpt: "Milkweeds are remarkable plants! They are considered important <u>indicator species</u> of healthy Tallgrass prairies and Oak savannas. They have long been treasured for their fibre, food and medicinal properties."
 date: 2022-09-27
 author: "JCH"
 draft: false
@@ -11,6 +11,10 @@ categories:
   - Projects
 layout: single
 links:
+- icon: door-open
+  icon_pack: fas
+  name: OPC
+  url: http://www.ojibway.ca/index.htm
 - icon: door-open
   icon_pack: fas
   name: NatureServe Explorer
@@ -281,11 +285,14 @@ a.one:hover {color: rgb(255, 20, 100);}
 </div>
 
 &nbsp; &nbsp; **Milkweed** flowers are arranged in either flat-topped or round clusters called *umbels* (i.e. latin *umbella*: "*a sunshade, parasol or umbrella*"). Individual flowers have two distinct parts -- a lower <u>*corolla*</u> and upper <u>*corona*</u> (**Fig. 1**). The lower *corolla* is made up of 5 backward-pointing (usually) petals, while the upper nectar containing *corona* is composed (usually) of 5 pairs of <u>*hoods*</u> and <u>*horns*</u>. The *hoods* extend from the base of the *stamens* and house a horn-like appendage (nectar reservoir) that arches over top of a central *gem*-like *gynostegium* (fused female *stigma* and male *anthers*). This unusual flower structure results in an equally unusual pollination mechanism. Like orchids, the pollen of **Milkweed** is packaged into discrete units called <u>*pollinia*</u>. They are part of *wishbone*-like structure called a <u>*pollinarium*</u> that contains a pair of *pollinium*, a <u>*translator*</u> and <u>*corpusculum*</u>.**<sup>8</sup>** The *pollinia* are connected to the *corpusculum*, a small disc-like gland at the base of the "*wishbone*", via the forking "*arms*" of the *translator*. Visually, the *corpusculum* (apex of the *pollinarium*) sits atop a narrow opening (<u>*alar fissure*</u>) into the <u>*stigmatic chamber*</u>, which houses the *pollinarium* (**Fig. 1**). When the leg of a feeding insect slips between the *hoods* and comes into contact with the *corpusculum* it can free the *pollinia* and carry it to other **Milkweed** plants. Given the arduous nature of the **<a class="one" href="https://www.fs.usda.gov/wildflowers/pollinators/importance.shtml">pollination</a>** process, only relatively large insects are capable of carrying out this task.  
+
 <hr style="border:2px solid gray">
 
 <!----------------------------------------------------------------->
 <!-------------------- PHOTOS OF MILKWEED sp. --------------------->
 <!----------------------------------------------------------------->
+&nbsp; &nbsp; The following Milkweed photos currently do not include two other resident species (i.e. Prairie<sup><span id="Dred">S2</span></sup>, Tall Green<sup><span id="Red">S1</span></sup>). These plants are difficult to find and photograph owing to their imperiled status (i.e. work in progress). Nevertheless, the four species listed here are som eof the most interesting, beautiful and ecologically important species to be found at <span id="Blue">OPC</span>.   
+
 <a id="Photo_BM"></a>
 **1. BUTTERFLY MILKWEED (**<i>Asclepias tuberosa L.</i>**):** **S4**, **G5**  
 

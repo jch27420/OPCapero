@@ -1,21 +1,19 @@
 ---
-title: OPC Project Portfolio
-description: "Delving into the Science of Ojibway Prairie Complex."
+title: OPC Projects
+description: "Delving into the Science of Ojibway Prairie Complex (OPC)."
 author: "JCH"
 show_post_thumbnail: true
 show_author_byline: true
-show_post_date: false
-# for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+show_post_date: true
+# for listing page layout (list, list-sidebar, list-grid)
+layout: list-grid
 
 # for list-sidebar layout
 sidebar: 
-  title: A Sidebar for Your Projects
+  title: Projects Sidebar
   description: |
-    Projects can be anything!
-    Check out the _index.md file in the /project folder 
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
+    Projects.
+  author: "JCH"
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
